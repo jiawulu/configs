@@ -1,0 +1,76 @@
+#!/bin/bash
+
+#wuzhong@taobao.com
+#打包工程用
+
+usage()
+{
+	echo 'build.sh -s(svn up) -x(antx.properties) -m(mvn clean package) -a(do all) kjava/wtm ]'
+	exit 1
+}
+
+#usage
+
+NEED_MVN=1
+while getopts "sxma:" options;do
+	case $options in
+		s) echo "svn up"
+		   HAS_OPT=1
+           NEED_SVN=1;;
+		x) echo "copy antx properties"
+		   HAS_OPT=1
+           NEED_ANTX=1;;
+		m) echo "mvn clean package"
+		   HAS_OPT=1
+		   NEED_MVN=1;;
+        a) echo "do all: svn up , antx properties , mvn clean package"
+           HAS_OPT=1
+           NEED_MVN=1
+           NEED_SVN=1
+           NEED_ANTX=1;;		
+		*) usage;;
+	esac
+done
+
+#APP_NAME=wtm
+APP_PATH=/home/admin/workspace/
+#获取最后一个参数
+RELATIVE_PATH=${!#}
+APP_NAME=$(basename $RELATIVE_PATH)
+
+#对参数做判断
+#if [ $HA ]
+
+echo "make sure to stop jboss"
+jbossctl stop
+
+APP_PATH=${APP_PATH}${RELATIVE_PATH}
+
+echo "app path is : $APP_PATH ; app name is $APP_NAME "
+
+[ $NEED_ANTX ] && if [ -f /home/admin/workspace/${APP_NAME}_antx.properties ]
+    then
+	echo "copy antx properties from " /home/admin/work/${APP_NAME}_antx.properties
+        cp /home/admin/workspace/${APP_NAME}_antx.properties /home/admin/antx.properties
+    else
+    	echo "===============antx.properties is not exist=============="
+        exit 0
+    fi
+
+if [ ! -d $APP_PATH ]
+then 
+	echo "==============project doesnot exit==========" ; 
+	exit 0
+fi
+
+if [ $NEED_SVN ] 
+then
+	cd $APP_PATH
+	svn up
+fi
+
+if [ $NEED_MVN ]
+then
+	cd $APP_PATH
+	mvn clean package 
+fi

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+svnserve -d -r /home/admin/svn_pros

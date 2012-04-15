@@ -1,0 +1,12 @@
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
+call pathogen#infect()
+
+set fileencodings=ucs-bom,utf8,GB18030,Big5,latin1
+
+let g:BASH_AuthorName='wuzhong'
+let g:BASH_Email='wuzhong@taobao.com'
+let g:BASH_Company='m.taobao.com'
+filetype plugin on
+
+syntax on

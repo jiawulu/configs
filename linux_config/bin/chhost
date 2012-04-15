@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#sudo chmod a+w /etc/hosts
+ip_reg="^[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}.[0-9]\{1,3\}"
+current_ip=`ifconfig| grep "255.255.255" | awk '{print $2 }'`
+echo "current ip is $current_ip!"
+#g/search/s/search/replace/g
+ed -s /etc/hosts << EOF
+g/taobao.ali.com/s/$ip_reg/$current_ip/g
+w
+q
+EOF
+
+grep "t-wuzhong.taobao.ali.com" /etc/hosts

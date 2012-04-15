@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python /home/admin/workspace/gmbox-read-only/gmbox/gmbox.py
+

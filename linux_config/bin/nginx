@@ -1,0 +1,20 @@
+#!/bin/bash
+CWD=`pwd`
+
+case $1 in
+        start)
+               /opt/nginx/sbin/nginx;
+                        ;;
+        stop)
+                kill -2 `ps -ef|grep "/opt/nginx/sbin/nginx"|grep -v "grep"|awk '{print $2}' `
+                        ;;
+        restart)
+                cd "$CMD"
+                $0 stop
+                $0 start
+        ;;
+        *)
+        echo $"Usage: $0 {start|stop|restart}"
+        exit 1
+esac
+exit 0

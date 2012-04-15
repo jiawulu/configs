@@ -1,0 +1,117 @@
+#!/bin/bash
+
+PROG_NAME=$0
+ACTION=$1
+usage() {
+    echo "Usage: $PROG_NAME {start|stop|restart|deploy}"
+    exit 1;
+}
+
+if [ $# -lt 1 ]; then
+    usage
+fi
+
+BASE_HOME=/home/admin
+JBOSS_HOME=/home/admin/taobao_install/jboss-4.2.2.GA
+#SERVER_HOME=$BASE_HOME/default
+#CONF_PATH=$BASE_HOME/conf
+STDOUT_LOG=$BASE_HOME/logs/jboss_stdout.log
+#CUSTOM_PATH="-Djboss.server.home.dir=$SERVER_HOME -Djboss.server.home.url=file:$SERVER_HOME"
+
+#export ORACLE_BASE=/home/oracle/oracle
+#export ORACLE_HOME=/opt/instantclient_10_2
+#export TNS_ADMIN=$ORACLE_HOME
+#export JAVA_HOME=/usr/lib/jvm/java-6-sun
+#export LD_LIBRARY_PATH=/opt/native:/opt/instantclient_10_2:/usr/local/lib:/usr/lib/jni:/home/admin/jprofiler6/bin/linux-x86
+export NLS_LANG=AMERICAN_AMERICA.ZHS16GBK
+export LANG=zh_CN.GB18030
+
+#echo $ORACLE_HOME
+#echo $TNS_ADMIN
+#echo $LD_LIBRARY_PATH
+
+JAVA_OPTS="-server -Xms800m -Xmx800m -XX:PermSize=96m -XX:MaxPermSize=96m -Xss1m"
+
+JAVA_OPTS="$JAVA_OPTS -Djava.awt.headless=true"
+JAVA_OPTS="$JAVA_OPTS -Dsun.net.client.defaultConnectTimeout=10000"
+JAVA_OPTS="$JAVA_OPTS -Dsun.net.client.defaultReadTimeout=30000"
+
+JAVA_OPTS="$JAVA_OPTS -Djava.awt.headless=true -Dcom.sun.management.jmxremote.port=1090 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=true -Dcom.sun.management.jmxremote.password.file=/home/admin/taobao_install/conf/jmxremote.password -Djava.rmi.server.hostname=$HOSTNAME"
+
+#add dubug 
+JAVA_OPTS="$JAVA_OPTS -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n"
+
+#add gc log
+JAVA_OPTS="$JAVA_OPTS -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:$BASE_HOME/logs/jboss_gc.log -XX:+PrintHeapAtGC"
+
+#JAVA_OPTS="$JAVA_OPTS -agentlib:jprofilerti=port=8849,nowait -Xbootclasspath/a:/home/admin/jprofiler6/bin/agent.jar"
+
+export JAVA_OPTS
+start()
+{
+    rm -rf $JBOSS_HOME/server/default/data/*
+    rm -rf $JBOSS_HOME/server/default/work/*
+    rm -f $STDOUT_LOG
+    touch $STDOUT_LOG
+    rm -f $BASE_HOME/logs/jboss_gc.log
+    $JBOSS_HOME/bin/run.sh -b 0.0.0.0 >$STDOUT_LOG 2>&1 &
+    #$JBOSS_HOME/bin/run.sh 
+    echo "jboss starts successfully"
+}
+
+stop()
+{
+    echo "stop ***************"
+    STR=`ps -C java -f --width 2000 | grep -- "$JBOSS_HOME"`
+    if [ ! -z "$STR" ]; then
+        echo "stopping jboss server ing...."
+        $JBOSS_HOME/bin/shutdown.sh --server=localhost:1099 -S > /dev/null 2>&1
+       # mv -f $BASE_HOME/logs/jboss_stdout.log "$BASE_HOME/logs/jboss_stdout.log.`date '+%Y%m%d%H%M%S'`"
+    else
+        echo "ther is no java process "
+    fi
+    for i in `seq 1 5`
+    do
+        STR=`ps -C java -f --width 2000 | grep -- "$JBOSS_HOME"`
+        if [ -z "$STR" ]; then
+            echo
+            return
+        fi
+        killall java > /dev/null 2>&1
+        echo -ne "stopping java process $i\r"
+        sleep 1
+    done
+    killall -9 java > /dev/null 2>&1
+}
+
+backup()
+{
+    echo "***************** bakeup ******************"
+}
+starthttpd()
+{
+    echo "**************** start httpd **************"
+}
+
+case "$ACTION" in
+    start)
+        start
+    ;;
+    stop)
+        stop
+    ;;
+    restart)
+        stop
+        start
+        starthttpd
+    ;;
+    deploy)
+        stop
+        start 
+        starthttpd
+      #  backup
+    ;;
+    *)
+        usage
+    ;;
+esac
