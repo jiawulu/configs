@@ -1,0 +1,3 @@
+#!/bin/bash
+
+MALLOC_CHECK_=1 gnome-control-center
