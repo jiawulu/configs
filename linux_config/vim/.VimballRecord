@@ -1,1 +1,0 @@
-winmanager.vba: call delete('/home/admin/.vim/doc/winmanager.txt')|call delete('/home/admin/.vim/plugin/start.gnome')|call delete('/home/admin/.vim/plugin/start.kde')|call delete('/home/admin/.vim/plugin/winfileexplorer.vim')|call delete('/home/admin/.vim/plugin/winmanager.vim')|call delete('/home/admin/.vim/plugin/wintagexplorer.vim')

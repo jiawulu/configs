@@ -95,7 +95,9 @@ starthttpd()
 
 case "$ACTION" in
     start)
+        cd $BASE_HOME/logs
         start
+        cd -
     ;;
     stop)
         stop
