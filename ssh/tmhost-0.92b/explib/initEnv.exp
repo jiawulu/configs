@@ -1,0 +1,6 @@
+#!/usr/bin/expect -f
+
+set _EXPLIB [file dirname [info script]]
+source $_EXPLIB/common.exp
+set username [getConfig "$_EXPLIB/expconfig.xml" "username"]
+set password [getConfig "$_EXPLIB/expconfig.xml" "password"]

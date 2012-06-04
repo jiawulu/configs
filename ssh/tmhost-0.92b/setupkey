@@ -1,0 +1,26 @@
+#!/usr/bin/expect -f
+source [file dirname [info script]]/explib/initEnv.exp
+
+set timeout 300
+log_user 0
+spawn ssh [lindex $argv 0] "mkdir -p ~/.ssh && chmod 0700 ~/.ssh"
+expect {
+                     "connecting (yes/no)?" {
+                         send "yes\r"
+                         exp_continue
+                     } "word:" {
+                         send "$password\r"
+                         interact
+                     } eof
+                 }
+spawn ssh-copy-id -i $env(HOME)/.ssh/id_rsa.pub [lindex $argv 0]
+expect {
+                    "connecting (yes/no)?" {
+                         send "yes\r"
+                         exp_continue
+                     } "word:" {
+                        send "$password\r"
+			interact
+                     } eof
+                     
+                 }

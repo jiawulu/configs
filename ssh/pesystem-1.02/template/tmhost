@@ -1,0 +1,13 @@
+############### {{appname}} ##################
+{% for host in hosts %}
+[{{host}}]
+hostname = {{host}}
+username = xinshi
+port = 22
+auth = password
+tmhost =1
+
+{% end %}
+############### {{appname}} ##################
+
+

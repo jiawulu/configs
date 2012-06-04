@@ -1,0 +1,37 @@
+#!/bin/sh
+
+PROG=`basename $0`
+USAGE="Usage: $PROG <host> <asuser> <localfile> <remotedir> [onboard]
+
+EXAMPLES:
+  $PROG 1.2.3.4  admin /home/admin/foo/httpd.conf /home/admin/cai/etc
+"
+
+cd `dirname $0`
+BASE_HOME=$PWD
+if [ -L $0 ] ; then
+    FILE=`readlink $0`
+    BASE_HOME=$BASE_HOME/`dirname $FILE`
+    cd $BASE_HOME
+fi
+
+if [ $# -lt 4 ];then
+ echo "$USAGE"
+ exit 1
+fi
+
+HOST=$1
+ASUSER=$2
+LOCALFILE=$3
+REMOTEDIR=$4
+
+if [ "$5" = "onboard" ] ; then
+  ONBOARD=1 
+fi
+
+if [ -z $ONBOARD ] ; then
+	$BASE_HOME/npscp_board $LOCALFILE $HOST:/tmp/
+else
+	$BASE_HOME/npscp_board $LOCALFILE $HOST:/tmp/ onboard
+fi
+$BASE_HOME/npsshc_board $HOST "sudo -u $ASUSER -H cp /tmp/`basename $LOCALFILE` $REMOTEDIR"

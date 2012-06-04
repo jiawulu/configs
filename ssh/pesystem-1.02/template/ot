@@ -1,0 +1,31 @@
+server {
+    listen   80;
+    server_name ~^{{appname}}.*\.ot\.m\.taobao\.com$;
+    access_log  /home/admin/nginx/logs/ot.m.taobao.com.access.log;
+
+    location = /1x1.gif {
+  	empty_gif;
+    }
+
+  proxy_set_header X-Forwarded-Host $host;
+  proxy_set_header X-Forwarded-Server $host;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header Host $http_host;
+
+  if ($host ~* "{{appname}}(.*)\.ot\.m\.taobao\.com$" ) { 
+   set  $machine  {{appname}}$1;
+  }
+
+  location / {
+
+   ############### {{appname}} ##################
+		{% for host in hosts %}
+    if ($machine = {{host}}) {
+     proxy_pass http://{{host}}:7001;
+     break;
+    }  
+		{% end %}
+   ############### {{appname}} ##################
+
+  }
+}

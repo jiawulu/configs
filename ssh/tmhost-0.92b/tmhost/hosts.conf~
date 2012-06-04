@@ -1,0 +1,123 @@
+#
+# FILE:         /opt/scripts/hosts.conf
+#
+# FORMAT:
+#     FLAG=value[,sub-value] ...
+#
+#       Note FLAG must be in upper-case
+#       value's may be in upper or lower-case
+################################################################################
+
+EWE01-adm    CLASS=DDD                    ROLE=AB,WEB     LIC_customer=cust01
+EWE02-adm    CLASS=LIC                    ROLE=IW,WEB     LIC_customer=cust01
+EWE03-adm    CLASS=LIC                    ROLE=IW,WEB     LIC_customer=cust02
+...
+172.23.7.61       GROUP=test      TYPE=online
+################################################################################
+10.232.10.82			GROUP=galaxyhost 			TYPE=daily
+172.23.76.65  		GROUP=galaxyhost 			TYPE=pre
+172.23.7.61				GROUP=galaxyhost			TYPE=online
+172.23.7.74				GROUP=galaxyhost			TYPE=online
+172.23.7.128			GROUP=galaxyhost			TYPE=online
+172.23.7.129			GROUP=galaxyhost			TYPE=online
+172.23.7.130			GROUP=galaxyhost			TYPE=online
+172.23.10.55			GROUP=galaxyhost			TYPE=online
+172.23.10.56			GROUP=galaxyhost			TYPE=online
+172.23.10.58			GROUP=galaxyhost			TYPE=online
+172.23.13.89			GROUP=galaxyhost			TYPE=online
+172.23.13.156			GROUP=galaxyhost			TYPE=online
+172.23.13.157			GROUP=galaxyhost			TYPE=online
+172.23.14.63			GROUP=galaxyhost			TYPE=online
+172.23.14.171			GROUP=galaxyhost			TYPE=online
+172.23.14.180			GROUP=galaxyhost			TYPE=online
+172.23.14.187			GROUP=galaxyhost			TYPE=online
+172.24.25.138			GROUP=galaxyhost			TYPE=online
+172.24.25.139			GROUP=galaxyhost			TYPE=online
+172.24.25.140			GROUP=galaxyhost			TYPE=online
+172.24.25.141			GROUP=galaxyhost			TYPE=online
+172.24.25.142			GROUP=galaxyhost			TYPE=online
+172.24.25.151			GROUP=galaxyhost			TYPE=online
+172.24.25.152			GROUP=galaxyhost			TYPE=online
+172.24.25.153			GROUP=galaxyhost			TYPE=online
+172.24.25.155			GROUP=galaxyhost			TYPE=online
+172.24.25.157			GROUP=galaxyhost			TYPE=online
+172.24.25.158			GROUP=galaxyhost			TYPE=online
+172.24.25.159			GROUP=galaxyhost			TYPE=online
+172.24.25.160			GROUP=galaxyhost			TYPE=online
+172.24.25.161			GROUP=galaxyhost			TYPE=online
+172.24.25.162			GROUP=galaxyhost			TYPE=online
+172.23.7.127			GROUP=galaxyhost			TYPE=offline
+172.23.10.57			GROUP=galaxyhost			TYPE=offline
+
+################################# wsm ##################################################
+172.24.13.169 GROUP=wsmhost TYPE=online
+172.24.13.175 GROUP=wsmhost TYPE=online
+172.24.13.182 GROUP=wsmhost TYPE=online
+172.24.28.125 GROUP=wsmhost TYPE=online
+172.24.28.126 GROUP=wsmhost TYPE=online
+172.24.28.187 GROUP=wsmhost TYPE=online
+172.24.31.159 GROUP=wsmhost TYPE=online
+172.24.31.162 GROUP=wsmhost TYPE=online
+172.24.38.166 GROUP=wsmhost TYPE=online
+172.24.38.176 GROUP=wsmhost TYPE=online
+################################# wsm ##################################################
+
+################################# wtm ##################################################
+172.23.7.111			GROUP=wtmhost	TYPE=online
+172.23.7.112			GROUP=wtmhost	TYPE=online
+172.23.10.59			GROUP=wtmhost	TYPE=online
+172.23.10.60			GROUP=wtmhost	TYPE=online
+172.23.13.93			GROUP=wtmhost	TYPE=online
+172.23.13.94			GROUP=wtmhost	TYPE=online
+172.23.13.141			GROUP=wtmhost	TYPE=online
+172.23.13.155			GROUP=wtmhost	TYPE=online
+172.23.13.171			GROUP=wtmhost	TYPE=online
+172.23.13.180			GROUP=wtmhost	TYPE=online
+172.23.14.145			GROUP=wtmhost	TYPE=online
+172.23.14.152			GROUP=wtmhost	TYPE=online
+172.24.26.187			GROUP=wtmhost	TYPE=online
+172.24.26.188			GROUP=wtmhost	TYPE=online
+172.24.26.189			GROUP=wtmhost	TYPE=online
+172.24.26.190			GROUP=wtmhost	TYPE=online
+172.24.26.191			GROUP=wtmhost	TYPE=online
+172.24.26.192			GROUP=wtmhost	TYPE=online
+172.24.37.159			GROUP=wtmhost	TYPE=online
+172.24.37.160			GROUP=wtmhost	TYPE=online
+172.24.37.161			GROUP=wtmhost	TYPE=online
+172.24.37.162			GROUP=wtmhost	TYPE=online
+172.24.37.163			GROUP=wtmhost	TYPE=online
+172.24.37.164			GROUP=wtmhost	TYPE=online
+################################# wtm ##################################################
+
+################################# gene #################################################
+172.23.174.145			GROUP=genehost	TYPE=online
+172.23.175.64			GROUP=genehost	TYPE=online
+172.24.23.101			GROUP=genehost	TYPE=online
+172.24.138.52			GROUP=genehost	TYPE=online
+################################# gene #################################################
+
+################################# wood #################################################
+172.24.38.67			GROUP=woodhost	TYPE=test
+172.24.38.76			GROUP=woodhost	TYPE=online
+172.24.38.112			GROUP=woodhost	TYPE=online
+172.24.38.114			GROUP=woodhost	TYPE=online
+################################# wood #################################################
+
+
+172.24.17.103			GROUP=wshost TYPE=online
+172.24.17.151			GROUP=wshost TYPE=online
+172.24.8.154			GROUP=wshost TYPE=online
+
+################################# wgateway #############################################
+172.23.66.146		  GROUP=wg			TYPE=pre
+172.24.29.174			GROUP=wg			TYPE=online
+172.24.29.188			GROUP=wg			TYPE=online
+################################# wgateway #############################################
+
+################################# wgateway #############################################
+decider013185.cm4		GROUP=decider		TYPE=online
+decider011187.cm4		GROUP=decider		TYPE=online
+decider017087.cm4		GROUP=decider		TYPE=online
+decider028058.cm4		GROUP=decider		TYPE=online
+decider172120.cm3		GROUP=decider		TYPE=online
+################################# wgateway #############################################

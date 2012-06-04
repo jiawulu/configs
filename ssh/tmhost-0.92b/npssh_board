@@ -1,0 +1,33 @@
+#!/usr/bin/expect -f
+# Script to supply root/admin password for remote ssh server
+#
+# author xinshi@taobao.com
+#
+source [file dirname [info script]]/explib/initEnv.exp
+
+set timeout 300
+#log_user 0
+#exp_internal 1
+set DONE 0
+
+spawn -noecho tboard -u$username 
+expect {
+										 eof {
+													exit
+										 } "connecting (yes/no)?" {
+                         send "yes\r"
+                         exp_continue
+                     } "word:" {
+                         send "$password\r"
+											   exp_continue
+										 } "~]$ " {
+                         if { $DONE == 1 } {
+												 		interact
+												 } else {
+			 									 		send -- "ssh [lindex $argv 0]\r"
+                         		set DONE 1
+													  exp_continue
+												 }
+                  	}
+                    
+}

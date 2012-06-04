@@ -1,0 +1,182 @@
+#
+# FILE:         /opt/scripts/hosts.conf
+#
+# FORMAT:
+#     FLAG=value[,sub-value] ...
+#
+#       Note FLAG must be in upper-case
+#       value's may be in upper or lower-case
+################################################################################
+
+EWE01-adm    CLASS=DDD                    ROLE=AB,WEB     LIC_customer=cust01
+EWE02-adm    CLASS=LIC                    ROLE=IW,WEB     LIC_customer=cust01
+EWE03-adm    CLASS=LIC                    ROLE=IW,WEB     LIC_customer=cust02
+...
+172.23.7.61       GROUP=test      TYPE=online
+################################################################################
+galaxy025155.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025142.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025141.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025139.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025138.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025140.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025158.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025161.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025159.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025162.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025160.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025109.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025157.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025153.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025152.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy025151.cm4    GROUP=galaxyhost          TYPE=working_online      
+galaxy164083.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy164177.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy164178.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165064.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165065.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165066.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165067.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165068.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165108.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165111.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165112.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165113.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165151.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165152.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy165153.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy012061.cm3    GROUP=galaxyhost          TYPE=working_online      
+galaxy012062.cm3    GROUP=galaxyhost          TYPE=working_online      
+v076065.cm3         GROUP=galaxyhost          TYPE=prepub
+10.232.101.38       GROUP=galaxyhost          TYPE=pack
+
+
+############################################# WSEARCH ################################
+wsearch012140.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch012102.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch010151.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch010077.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch025188.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch025185.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch025186.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch025154.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch024162.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch024057.cm4   GROUP=wsearchhost         TYPE=working_online      
+wsearch178108.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch178109.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch178110.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch178111.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch178112.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch178151.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch179109.cm3   GROUP=wsearchhost         TYPE=working_online      
+wsearch179110.cm3   GROUP=wsearchhost         TYPE=working_online      
+v076042.cm3         GROUP=wsearchhost         TYPE=prepub
+10.232.15.148       GROUP=wsearchhost         TYPE=pack
+
+################################# wsm ##################################################
+#wsm013175.cm4  GROUP=wsmhost TYPE=online 
+wsm013169.cm4  GROUP=wsmhost TYPE=online 
+wsm013182.cm4  GROUP=wsmhost TYPE=online 
+#wsm023060.cm4  GROUP=wsmhost TYPE=online 
+#wsm031162.cm4  GROUP=wsmhost TYPE=online 
+#wsm031159.cm4  GROUP=wsmhost TYPE=online 
+#wsm028187.cm4  GROUP=wsmhost TYPE=online 
+#wsm028126.cm4  GROUP=wsmhost TYPE=online 
+#wsm028125.cm4  GROUP=wsmhost TYPE=online 
+#wsm174081.cm3  GROUP=wsmhost TYPE=online 
+#wsm174082.cm3  GROUP=wsmhost TYPE=online 
+#wsm174107.cm3  GROUP=wsmhost TYPE=online 
+#wsm174108.cm3  GROUP=wsmhost TYPE=online 
+#wsm174109.cm3  GROUP=wsmhost TYPE=online 
+#wsm175061.cm3  GROUP=wsmhost TYPE=online 
+#wsm175062.cm3  GROUP=wsmhost TYPE=online 
+#wsm175080.cm3  GROUP=wsmhost TYPE=online 
+#wsm031155.cm4  GROUP=wsmhost TYPE=online 
+################################# wsm ##################################################
+wtm026192.cm4   GROUP=wtmhost TYPE=online
+wtm026191.cm4   GROUP=wtmhost TYPE=online
+wtm026190.cm4   GROUP=wtmhost TYPE=online
+wtm026189.cm4   GROUP=wtmhost TYPE=online
+wtm026187.cm4   GROUP=wtmhost TYPE=online
+wtm026188.cm4   GROUP=wtmhost TYPE=online
+wtm037162.cm4   GROUP=wtmhost TYPE=online
+wtm037164.cm4   GROUP=wtmhost TYPE=online
+wtm037161.cm4   GROUP=wtmhost TYPE=online
+wtm037160.cm4   GROUP=wtmhost TYPE=online
+wtm164171.cm3   GROUP=wtmhost TYPE=online
+wtm164172.cm3   GROUP=wtmhost TYPE=online
+wtm164173.cm3   GROUP=wtmhost TYPE=online
+wtm164174.cm3   GROUP=wtmhost TYPE=online
+wtm164175.cm3   GROUP=wtmhost TYPE=online
+wtm164176.cm3   GROUP=wtmhost TYPE=online
+wtm165102.cm3   GROUP=wtmhost TYPE=online
+wtm165103.cm3   GROUP=wtmhost TYPE=online
+wtm165104.cm3   GROUP=wtmhost TYPE=online
+wtm165105.cm3   GROUP=wtmhost TYPE=online
+################################# wtm ##################################################
+
+################################# gene #################################################
+172.23.174.145			GROUP=genehost	TYPE=online
+172.23.175.64			GROUP=genehost	TYPE=online
+172.24.23.101			GROUP=genehost	TYPE=online
+172.24.138.52			GROUP=genehost	TYPE=online
+################################# gene #################################################
+
+################################# wood #################################################
+172.24.38.67			GROUP=woodhost	TYPE=test
+172.24.38.76			GROUP=woodhost	TYPE=online
+172.24.38.112			GROUP=woodhost	TYPE=online
+172.24.38.114			GROUP=woodhost	TYPE=online
+################################# wood #################################################
+
+
+172.24.17.103			GROUP=wshost TYPE=online
+172.24.17.151			GROUP=wshost TYPE=online
+172.24.8.154			GROUP=wshost TYPE=online
+
+################################# wgateway #############################################
+# preVIP : 110.75.14.192
+172.23.66.146		  GROUP=wg			TYPE=pre
+172.24.29.174			GROUP=wg			TYPE=online
+172.24.29.188			GROUP=wg			TYPE=online
+################################# wgateway #############################################
+
+################################# decider #############################################
+decider013185.cm4		GROUP=decider		TYPE=online
+decider011187.cm4		GROUP=decider		TYPE=online
+decider017087.cm4		GROUP=decider		TYPE=online
+decider028058.cm4		GROUP=decider		TYPE=online
+decider172120.cm3		GROUP=decider		TYPE=online
+################################# decider #############################################
+
+mtop137072.cm4  GROUP=mtophost TYPE=online
+mtop019185.cm4  GROUP=mtophost TYPE=online
+mtop019103.cm4  GROUP=mtophost TYPE=online
+mtop019102.cm4  GROUP=mtophost TYPE=online
+mtop204057.cm3  GROUP=mtophost TYPE=online
+mtop144055.cm4  GROUP=mtophost TYPE=online
+mtop180082.cm3  GROUP=mtophost TYPE=online
+mtop181059.cm3  GROUP=mtophost TYPE=online
+mtop182060.cm3  GROUP=mtophost TYPE=online
+mtop183075.cm3  GROUP=mtophost TYPE=online
+mtop148070.cm4  GROUP=mtophost TYPE=online
+mtop148071.cm4  GROUP=mtophost TYPE=online
+mtop174180.cm3  GROUP=mtophost TYPE=online
+mtop174181.cm3  GROUP=mtophost TYPE=online
+mtop174182.cm3  GROUP=mtophost TYPE=online
+mtop174183.cm3  GROUP=mtophost TYPE=online
+mtop174184.cm3  GROUP=mtophost TYPE=online
+mtop156176.cm4  GROUP=mtophost TYPE=online
+mtop156177.cm4  GROUP=mtophost TYPE=online
+mtop156178.cm4  GROUP=mtophost TYPE=online
+
+################################# wass #############################################
+wass179145.cm3    GROUP=wasshost    TYPE=working_online
+wass178171.cm3    GROUP=wasshost    TYPE=working_online
+wass009136.cm4    GROUP=wasshost    TYPE=working_online
+wass008134.cm4    GROUP=wasshost    TYPE=working_online
+wass173051.cm3    GROUP=wasshost    TYPE=working_online
+wass173052.cm3    GROUP=wasshost    TYPE=working_online
+wass148076.cm4    GROUP=wasshost    TYPE=working_online
+wass148077.cm4    GROUP=wasshost    TYPE=working_online
+################################# wass #############################################

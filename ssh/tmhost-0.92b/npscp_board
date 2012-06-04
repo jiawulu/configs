@@ -1,0 +1,57 @@
+#!/usr/bin/expect -f
+# Script to supply root/admin password for remote ssh server
+#
+# author xinshi@taobao.com
+#
+source [file dirname [info script]]/explib/initEnv.exp
+
+set timeout 300
+#log_user 0
+#exp_internal 1
+
+set ONBOARD 0
+set DONE 0
+
+if {[string compare [lindex $argv 2] "onboard"] == 0} {
+		set ONBOARD 1
+}
+
+
+set FILE [exec basename [lindex $argv 0]]
+
+if { $ONBOARD != 1 } {
+		exec tboard -u$username -cscp -f[lindex $argv 0]
+}
+
+#hide login output
+log_user 0
+spawn -noecho tboard -u$username
+expect {
+                      "~]$ " {
+												 if { $DONE == 1 } {
+													 stty -echo
+												   send -- "exit\r"
+													 interact
+													 exit
+												 }
+												 if  { $ONBOARD != 1 } {
+												 		send -- "scp ~/$FILE [lindex $argv 1] && rm -rf ~/$FILE [lindex $argv 1]\r"
+														set DONE 1
+														exp_continue
+												 } else {
+														send -- "scp [lindex $argv 0] [lindex $argv 1]\r"
+														set DONE 1
+														exp_continue
+												 }
+										} "word:" {
+#                         stty -echo
+                         send "$password\r"
+                         exp_continue
+										} "connecting (yes/no)?" {
+                         send "$password\r"
+                         exp_continue
+
+										}
+
+                 }
+
