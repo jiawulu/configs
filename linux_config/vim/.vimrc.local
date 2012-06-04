@@ -1,0 +1,39 @@
+" encoding {
+    set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+    set encoding=utf-8
+    "set termencoding=cp936
+    set fileencoding=utf-8
+    "language messages zh_CN.UTF-8 
+" }
+
+color peaksea
+
+" superTAB {
+Bundle 'SuperTab'
+"supertab,snipmate
+"When you input a tab, it will 
+"1. check whether there is a snipMate snippet match the pattern. 
+"2. if there is no snipMate snippet match the pattern, it will use supertab instead. 
+let g:SuperTabMappingForward="<tab>"
+let g:SuperTabRetainCompletionType=2
+let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+" }
+
+Bundle 'snipMate'
+Bundle 'Random-Tip-Displayer'
+Bundle 'vimtabs.vim'
+
+" javascript supprt {
+Bundle 'Simple-Javascript-Indenter'
+let g:SimpleJsIndenter_BriefMode = 1
+
+if executable('d8')
+    Bundle 'lint.vim'
+    hi clear SpellBad
+    hi SpellBad cterm=underline,bold ctermfg=magenta
+    ""let jshint_highlight_color = 'DarkGray'
+    ""let disable_lint = 1
+endif
+" }
+
+
