@@ -1,0 +1,34 @@
+CTRL + e : open nerdtree
+, + e :  find in nerdtree
+
+ctrl + p :  find 
+
+ctrl + ww 或者  h/l : move tab
+
+space / zc  : fold open or close
+
+F12   past mode toggle
+
+TABLE BLOCK :  z+(l/h/j/k)
+
+,b     buffer explore : no use
+
+,jt  json format
+
+,tt  open tag bar
+
+,rt  vim tips(,gt ,dt)
+
+,gt  窗口间切换
+
+" BASIC move { 
+   0 (zero):
+^  $   g_    
+
+
+""}"
+
+u
+ctrl + r
+
+:bn,:bp   buffer间切换

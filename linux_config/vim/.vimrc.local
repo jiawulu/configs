@@ -29,8 +29,6 @@ let g:SimpleJsIndenter_BriefMode = 1
 
 if executable('d8')
     Bundle 'lint.vim'
-    hi clear SpellBad
-    hi SpellBad cterm=underline,bold ctermfg=magenta
     ""let jshint_highlight_color = 'DarkGray'
     ""let disable_lint = 1
 endif
