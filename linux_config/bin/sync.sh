@@ -8,7 +8,7 @@ to=$2
 
 #find $from | grep -v ".svn" 
 for fileName in $(find $from | grep -v ".svn" ) ; do
-	toName=${fileName/from/to};
+	toName=${fileName/$from/$to};
 	#if need to create a directory
 
 	[ -d $fileName ] && [ -d $toName ] && continue;
