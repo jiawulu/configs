@@ -26,6 +26,7 @@ Bundle 'vimtabs.vim'
 " javascript supprt {
 Bundle 'Simple-Javascript-Indenter'
 let g:SimpleJsIndenter_BriefMode = 1
+Bundle 'JavaScript-syntax'
 
 if executable('d8')
     Bundle 'lint.vim'
@@ -33,7 +34,6 @@ if executable('d8')
     let disable_lint = 1
 endif
 " }
-
 
 " tagbar {
 let g:tagbar_type_javascript = {
@@ -47,6 +47,6 @@ let g:tagbar_type_javascript = {
 \ }
 " }
 
-hi CursorLine   cterm=BOLD term=NONE ctermfg=NONE  guibg=darkred guifg=white gui=NONE
-
 Bundle 'jsbeautify'
+
+hi CursorLine   cterm=NONE term=NONE ctermfg=NONE  guibg=darkred guifg=white gui=NONE
