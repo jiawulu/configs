@@ -17,13 +17,16 @@
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
     <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Groovy DSL errors" />
-    <notification groupId="color" />
     <notification groupId="Plugin Error" />
+    <notification groupId="color" />
+    <notification groupId="Reformat Code" />
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
     <toolWindow group="Flash app not compiled before launch" />
     <toolWindow group="Git Messages" />
     <toolWindow group="External Executable Critical Failures" />
     <toolWindow group="FindInPath" />
     <toolWindow group="Gradle warnings" />
+    <toolWindow group="Common Version Control Messages" />
   </component>
 </application>
 

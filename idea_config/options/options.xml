@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
+    <location key="RollbackChangesDialog.0.0.1280.1024" x="265" y="209" />
     <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1280.1024" x="460" y="328" />
     <location key="svn.passwordDialog.0.0.1280.1024" x="312" y="395" />
     <location key="OptionsEditor" x="9" y="72" />
@@ -8,18 +9,24 @@
     <location key="FileChooserDialogImpl" x="160" y="235" />
     <location key="#Plugins.0.0.1280.1024" x="209" y="150" />
     <location key="FileChooserDialogImpl.0.0.1280.1024" x="382" y="226" />
-    <location key="#Notifications.0.0.1280.1024" x="383" y="224" />
-    <location key="ProcessPopupWindow" x="1280" y="706" />
-    <location key="DiffWindow.0.0.1280.1024" x="72" y="79" />
-    <location key="OptionsEditor.0.0.1280.1024" x="-9" y="19" />
+    <location key="#Notifications.0.0.1280.1024" x="356" y="200" />
+    <location key="ProcessPopupWindow" x="256" y="655" />
+    <location key="DiffWindow.0.0.1280.1024" x="45" y="55" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1280.1024" x="416" y="209" />
+    <location key="OptionsEditor.0.0.1280.1024" x="117" y="146" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1280.1024" x="380" y="110" />
     <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1280.1024" x="-9" y="242" />
-    <location key="#Browse_Repositories.0.0.1280.1024" x="62" y="118" />
+    <location key="VCS.ChangelistChooser.0.0.1280.1024" x="444" y="330" />
+    <location key="#Menus_and_Toolbars.0.0.1280.1024" x="395" y="259" />
+    <location key="CommitChangelistDialog.0.0.1280.1024" x="260" y="144" />
+    <location key="#Browse_Repositories.0.0.1280.1024" x="35" y="102" />
     <size key="ProcessPopupWindow" width="768" height="293" />
-    <size key="svn.passwordDialog.0.0.1280.1024" width="638" height="221" />
     <size key="DiffWindow.0.0.1280.1024" width="1100" height="839" />
+    <size key="svn.passwordDialog.0.0.1280.1024" width="638" height="221" />
     <size key="changelist.details.popup.0.0.1280.1024" width="290" height="89" />
-    <size key="OptionsEditor.0.0.1280.1024" width="1244" height="628" />
+    <size key="OptionsEditor.0.0.1280.1024" width="1122" height="748" />
     <size key="javadoc.popup.0.0.1280.1024" width="502" height="129" />
+    <size key="CommitChangelistDialog.0.0.1280.1024" width="742" height="737" />
     <size key="#Browse_Repositories.0.0.1280.1024" width="1227" height="712" />
     <extendedState key="DiffWindow" state="0" />
   </component>
@@ -27,6 +34,7 @@
     <laf class-name="com.sun.java.swing.plaf.gtk.GTKLookAndFeel" />
   </component>
   <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_" value="0.8" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="Non-Project Files" value="Yellow" />
     <property name="installation.uid" value="4934d0d2-48f7-417b-82b2-e951af5496dc" />
@@ -38,13 +46,16 @@
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="file.colors.enable.non.project" value="Yellow" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
     <property name="Tests" value="Green" />
     <property name="default.storage.format" value=".idea (directory based)" />
+    <property name="LayoutCode.optimizeImports" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="ColorChooser.RecentColors" value="247-161-133-255,,,45-76-69-255,,,255-174-172-255,,,255-197-176-255,,,68-39-10-255,,,143-146-140-255,,,255-240-202-255" />
+    <property name="ColorChooser.RecentColors" value="247-161-133-255,,,45-76-69-255,,,255-174-172-255,,,255-197-176-255,,,68-39-10-255,,,143-146-140-255,,,255-240-202-255,,,0-0-0-255" />
   </component>
 </application>
 

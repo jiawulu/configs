@@ -7,7 +7,7 @@
     <option name="NO_AUTO_IMPORT_PATTERN" value="[a-z].?" />
     <option name="SUPPRESS_WARNINGS" value="true" />
     <option name="SHOW_METHOD_SEPARATORS" value="false" />
-    <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
+    <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="5" />
     <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
 </application>
