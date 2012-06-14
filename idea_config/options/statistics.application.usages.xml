@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="libraries">
+      <project id="wdetail" values="spring,groovy,spring-mvc" />
+    </group>
+    <group name="language-level">
+      <project id="wdetail" values="JDK_1_6" />
+    </group>
+    <group name="vcs">
+      <project id="wdetail" values="svn" />
+    </group>
+    <group name="frameworks">
+      <project id="wdetail" values="web" />
+    </group>
+    <group name="spring">
+      <project id="wdetail" values="mvc" />
+    </group>
+    <group name="module type">
+      <project id="wdetail" values="JAVA_MODULE" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="wdetail" values="DEFAULT" />
+    </group>
+  </component>
+</application>
+

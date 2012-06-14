@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="Osmorc">
+    <option name="libraryBundlificationRules">
+      <list>
+        <LibraryBundlificationRule>
+          <option name="lastModified" value="1339655492366" />
+        </LibraryBundlificationRule>
+      </list>
+    </option>
+  </component>
+</application>
+

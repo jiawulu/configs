@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1280.1024" x="460" y="328" />
+    <location key="svn.passwordDialog.0.0.1280.1024" x="312" y="395" />
+    <location key="OptionsEditor" x="9" y="72" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.1024" x="457" y="363" />
+    <location key="FileChooserDialogImpl" x="160" y="235" />
+    <location key="#Plugins.0.0.1280.1024" x="209" y="150" />
+    <location key="FileChooserDialogImpl.0.0.1280.1024" x="382" y="226" />
+    <location key="#Notifications.0.0.1280.1024" x="383" y="224" />
+    <location key="ProcessPopupWindow" x="1280" y="706" />
+    <location key="DiffWindow.0.0.1280.1024" x="72" y="79" />
+    <location key="OptionsEditor.0.0.1280.1024" x="-9" y="19" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1280.1024" x="-9" y="242" />
+    <location key="#Browse_Repositories.0.0.1280.1024" x="62" y="118" />
+    <size key="ProcessPopupWindow" width="768" height="293" />
+    <size key="svn.passwordDialog.0.0.1280.1024" width="638" height="221" />
+    <size key="DiffWindow.0.0.1280.1024" width="1100" height="839" />
+    <size key="changelist.details.popup.0.0.1280.1024" width="290" height="89" />
+    <size key="OptionsEditor.0.0.1280.1024" width="1244" height="628" />
+    <size key="javadoc.popup.0.0.1280.1024" width="502" height="129" />
+    <size key="#Browse_Repositories.0.0.1280.1024" width="1227" height="712" />
+    <extendedState key="DiffWindow" state="0" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.sun.java.swing.plaf.gtk.GTKLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="installation.uid" value="4934d0d2-48f7-417b-82b2-e951af5496dc" />
+    <property name="AppServerDKsEditor.splitterProportion" value="0.3" />
+    <property name="export.settings.path" value="$USER_HOME$/.IntelliJIdea11/config/settings.jar" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="file.colors.enable.tests" value="Green" />
+    <property name="ShowDocumentationInToolWindow" value="true" />
+    <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="Tests" value="Green" />
+    <property name="default.storage.format" value=".idea (directory based)" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="ColorChooser.RecentColors" value="247-161-133-255,,,45-76-69-255,,,255-174-172-255,,,255-197-176-255,,,68-39-10-255,,,143-146-140-255,,,255-240-202-255" />
+  </component>
+</application>
+

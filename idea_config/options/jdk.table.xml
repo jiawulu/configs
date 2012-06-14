@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="1.6" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.6.0_29&quot;" />
+      <homePath value="/opt/jdk1.6.0_29" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/jre/lib/ext/sunjce_provider.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="jar:///opt/jdk1.6.0_29/src.zip!/" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
+
