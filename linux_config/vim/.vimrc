@@ -259,7 +259,7 @@
      " Buffer explorer {
         nmap <leader>b :BufExplorer<CR>
      " }
-v
+
      " ctrlp {
         let g:ctrlp_working_path_mode = 2
         nnoremap <silent> <D-t> :CtrlP<CR>
