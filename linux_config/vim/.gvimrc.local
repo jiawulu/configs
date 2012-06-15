@@ -149,3 +149,5 @@ endif
 
 set showcmd
 set mousemodel=popup
+
+Bundle 'bash-support.vim'
