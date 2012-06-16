@@ -3,29 +3,44 @@
   <component name="DimensionService">
     <location key="RollbackChangesDialog.0.0.1280.1024" x="265" y="209" />
     <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1280.1024" x="460" y="328" />
-    <location key="svn.passwordDialog.0.0.1280.1024" x="312" y="395" />
     <location key="OptionsEditor" x="9" y="72" />
+    <location key="FrameworkRunConsoleActionPopup.0.0.1280.1024" x="491" y="422" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.1024" x="457" y="363" />
-    <location key="FileChooserDialogImpl" x="160" y="235" />
-    <location key="#Plugins.0.0.1280.1024" x="209" y="150" />
+    <location key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialog.0.0.1280.1024" x="245" y="126" />
     <location key="FileChooserDialogImpl.0.0.1280.1024" x="382" y="226" />
     <location key="#Notifications.0.0.1280.1024" x="356" y="200" />
-    <location key="ProcessPopupWindow" x="256" y="655" />
-    <location key="DiffWindow.0.0.1280.1024" x="45" y="55" />
-    <location key="#com.intellij.ide.util.MemberChooser.0.0.1280.1024" x="416" y="209" />
-    <location key="OptionsEditor.0.0.1280.1024" x="117" y="146" />
+    <location key="findTextDialog.0.0.1280.1024" x="361" y="214" />
+    <location key="DiffWindow.0.0.1280.1024" x="36" y="47" />
+    <location key="com.jetbrains.php.framework.custom.CustomFrameworkDialog.0.0.1280.1024" x="462" y="341" />
     <location key="refactoring.ChangeSignatureDialog.0.0.1280.1024" x="380" y="110" />
-    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1280.1024" x="-9" y="242" />
     <location key="VCS.ChangelistChooser.0.0.1280.1024" x="444" y="330" />
-    <location key="#Menus_and_Toolbars.0.0.1280.1024" x="395" y="259" />
-    <location key="CommitChangelistDialog.0.0.1280.1024" x="260" y="144" />
-    <location key="#Browse_Repositories.0.0.1280.1024" x="35" y="102" />
+    <location key="#Menus_and_Toolbars.0.0.1280.1024" x="377" y="243" />
+    <location key="CommitChangelistDialog.0.0.1280.1024" x="224" y="112" />
+    <location key="svn.passwordDialog.0.0.1280.1024" x="312" y="395" />
+    <location key="#Plugins.0.0.1280.1024" x="209" y="150" />
+    <location key="FileChooserDialogImpl" x="151" y="227" />
+    <location key="ProcessPopupWindow" x="256" y="655" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1280.1024" x="416" y="209" />
+    <location key="#BuildArtifactsBeforeRunChooser.0.0.1280.1024" x="391" y="284" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1280.1024" x="200" y="142" />
+    <location key="OptionsEditor.0.0.1280.1024" x="63" y="98" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1280.1024" x="-9" y="221" />
+    <location key="#Browse_Repositories.0.0.1280.1024" x="17" y="86" />
+    <size key="GridCell.Tab.0.left.0.0.1280.1024" width="1230" height="191" />
+    <size key="GridCell.Tab.0.bottom.0.0.1280.1024" width="1230" height="191" />
+    <size key="svn.passwordDialog.0.0.1280.1024" width="638" height="221" />
+    <size key="FrameworkRunConsoleActionPopup.0.0.1280.1024" width="302" height="45" />
+    <size key="GridCell.Tab.1.right.0.0.1280.1024" width="1230" height="191" />
+    <size key="GridCell.Tab.1.left.0.0.1280.1024" width="1230" height="191" />
+    <size key="javadoc.popup.0.0.1280.1024" width="502" height="129" />
     <size key="ProcessPopupWindow" width="768" height="293" />
     <size key="DiffWindow.0.0.1280.1024" width="1100" height="839" />
-    <size key="svn.passwordDialog.0.0.1280.1024" width="638" height="221" />
     <size key="changelist.details.popup.0.0.1280.1024" width="290" height="89" />
+    <size key="GridCell.Tab.0.center.0.0.1280.1024" width="1230" height="191" />
     <size key="OptionsEditor.0.0.1280.1024" width="1122" height="748" />
-    <size key="javadoc.popup.0.0.1280.1024" width="502" height="129" />
+    <size key="GridCell.Tab.1.bottom.0.0.1280.1024" width="1230" height="191" />
+    <size key="GridCell.Tab.0.right.0.0.1280.1024" width="1230" height="191" />
+    <size key="GridCell.Tab.1.center.0.0.1280.1024" width="1230" height="191" />
     <size key="CommitChangelistDialog.0.0.1280.1024" width="742" height="737" />
     <size key="#Browse_Repositories.0.0.1280.1024" width="1227" height="712" />
     <extendedState key="DiffWindow" state="0" />
@@ -46,11 +61,13 @@
     <property name="SingleInspectionProfilePanel.HORIZONTAL_DIVIDER_PROPORTION" value="0.5" />
     <property name="file.colors.enable.non.project" value="Yellow" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
     <property name="SingleInspectionProfilePanel.VERTICAL_DIVIDER_PROPORTION" value="0.5" />
-    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="LayoutCode.processChangedText" value="false" />
     <property name="Tests" value="Green" />
+    <property name="introduce.variable.prefer.statements" value="false" />
     <property name="default.storage.format" value=".idea (directory based)" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="MemberChooser.showClasses" value="true" />

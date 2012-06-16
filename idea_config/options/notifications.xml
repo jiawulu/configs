@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="NotificationConfiguration">
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Command Line Tool" />
     <notification groupId="Grape" />
     <notification groupId="AIR Packaging" />
     <notification groupId="Framework Detection" />
@@ -17,10 +19,9 @@
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
     <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Groovy DSL errors" />
-    <notification groupId="Plugin Error" />
-    <notification groupId="color" />
     <notification groupId="Reformat Code" />
-    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="color" />
+    <notification groupId="Plugin Error" />
     <toolWindow group="Flash app not compiled before launch" />
     <toolWindow group="Git Messages" />
     <toolWindow group="External Executable Critical Failures" />

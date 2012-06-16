@@ -2,26 +2,43 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="libraries">
-      <project id="wdetail" values="spring,groovy,spring-mvc" />
+      <project id="wdetail" values="spring-mvc,spring,groovy" />
+      <project id="sirius" values="spring,spring-mvc,groovy" />
     </group>
     <group name="language-level">
       <project id="wdetail" values="JDK_1_6" />
+      <project id="sirius" values="JDK_1_5,JDK_1_6" />
     </group>
     <group name="vcs">
       <project id="wdetail" values="svn" />
+      <project id="sirius" values="svn" />
     </group>
     <group name="frameworks">
       <project id="wdetail" values="web" />
     </group>
+    <group name="Command line tool">
+      <project id="sirius" values="console in toolwindow" />
+    </group>
     <group name="spring">
       <project id="wdetail" values="mvc" />
+      <project id="sirius" values="mvc" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="sirius" values="Remote" />
     </group>
     <group name="module type">
       <project id="wdetail" values="JAVA_MODULE" />
+      <project id="sirius" values="JAVA_MODULE" />
     </group>
     <group name="JavaScript versions">
       <project id="wdetail" values="DEFAULT" />
+      <project id="sirius" values="DEFAULT" />
     </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.Remote.Debug" count="1" />
+    </counts>
   </component>
 </application>
 
