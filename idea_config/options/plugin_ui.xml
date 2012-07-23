@@ -7,7 +7,9 @@
     <option name="INSTALLED_SORT_BY_STATUS" value="false" />
     <option name="myOutdatedPlugins">
       <value>
-        <list size="0" />
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="com.jetbrains.php.framework" />
+        </list>
       </value>
     </option>
     <available-proportions proportions="0.5" version="1" />

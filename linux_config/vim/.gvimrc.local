@@ -161,5 +161,5 @@ if has('win32') || has('win64')
     source $VIMRUNTIME/delmenu.vim
     source $VIMRUNTIME/menu.vim
     language messages zh_cn.utf-8
-fi
+endif
     

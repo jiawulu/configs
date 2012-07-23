@@ -2,42 +2,91 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="libraries">
-      <project id="wdetail" values="spring-mvc,spring,groovy" />
-      <project id="sirius" values="spring,spring-mvc,groovy" />
+      <project id="wireless-webx3-common" values="spring,groovy,spring-mvc" />
+      <project id="wtm" values="groovy,spring-mvc,spring" />
+      <project id="wdetail" values="spring,groovy,spring-mvc" />
+      <project id="sirius" values="groovy,spring-mvc,spring" />
+      <project id="wireless-common-urihandler-webx3" values="spring,groovy,spring-mvc" />
+      <project id="wireless-hsf-test" values="spring-mvc,spring,groovy" />
+      <project id="mtop" values="groovy,spring,spring-mvc" />
+      <project id="wireless-common-webx-util" values="spring,spring-mvc" />
+      <project id="galaxy" values="spring,groovy,spring-mvc" />
     </group>
     <group name="language-level">
+      <project id="wireless-webx3-common" values="JDK_1_6" />
+      <project id="wtm" values="JDK_1_6" />
       <project id="wdetail" values="JDK_1_6" />
       <project id="sirius" values="JDK_1_5,JDK_1_6" />
+      <project id="wireless-common-urihandler-webx3" values="JDK_1_6" />
+      <project id="wireless-hsf-test" values="JDK_1_6" />
+      <project id="mtop" values="JDK_1_6,JDK_1_5" />
+      <project id="wireless-common-webx-util" values="JDK_1_5,JDK_1_6" />
+      <project id="galaxy" values="JDK_1_6" />
     </group>
     <group name="vcs">
+      <project id="wtm" values="svn" />
       <project id="wdetail" values="svn" />
       <project id="sirius" values="svn" />
+      <project id="wireless-hsf-test" values="svn" />
+      <project id="mtop" values="svn" />
+      <project id="galaxy" values="svn" />
+    </group>
+    <group name="Command line tool">
+      <project id="wdetail" values="console in toolwindow" />
+      <project id="sirius" values="console in toolwindow" />
     </group>
     <group name="frameworks">
       <project id="wdetail" values="web" />
-    </group>
-    <group name="Command line tool">
-      <project id="sirius" values="console in toolwindow" />
+      <project id="mtop" values="web" />
     </group>
     <group name="spring">
+      <project id="wireless-webx3-common" values="mvc" />
+      <project id="wtm" values="mvc" />
       <project id="wdetail" values="mvc" />
       <project id="sirius" values="mvc" />
+      <project id="wireless-common-urihandler-webx3" values="mvc" />
+      <project id="wireless-hsf-test" values="mvc" />
+      <project id="mtop" values="mvc" />
+      <project id="galaxy" values="mvc" />
     </group>
     <group name="run-configuration-type">
+      <project id="wtm" values="Remote" />
+      <project id="wdetail" values="Remote" />
       <project id="sirius" values="Remote" />
+      <project id="mtop" values="Remote" />
     </group>
     <group name="module type">
+      <project id="wireless-webx3-common" values="JAVA_MODULE" />
+      <project id="wtm" values="JAVA_MODULE" />
       <project id="wdetail" values="JAVA_MODULE" />
       <project id="sirius" values="JAVA_MODULE" />
+      <project id="wireless-common-urihandler-webx3" values="JAVA_MODULE" />
+      <project id="wireless-hsf-test" values="JAVA_MODULE" />
+      <project id="mtop" values="JAVA_MODULE" />
+      <project id="wireless-common-webx-util" values="JAVA_MODULE" />
+      <project id="galaxy" values="JAVA_MODULE" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="wdetail" values="JUnit" />
+      <project id="wireless-hsf-test" values="JUnit" />
     </group>
     <group name="JavaScript versions">
+      <project id="wireless-webx3-common" values="DEFAULT" />
+      <project id="wtm" values="DEFAULT" />
       <project id="wdetail" values="DEFAULT" />
       <project id="sirius" values="DEFAULT" />
+      <project id="wireless-common-urihandler-webx3" values="DEFAULT" />
+      <project id="wireless-hsf-test" values="DEFAULT" />
+      <project id="mtop" values="DEFAULT" />
+      <project id="wireless-common-webx-util" values="DEFAULT" />
+      <project id="galaxy" values="DEFAULT" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.Remote.Debug" count="1" />
+      <entry feature="execute.JUnit.Debug" count="45" />
+      <entry feature="execute.JUnit.Run" count="46" />
+      <entry feature="execute.Remote.Debug" count="39" />
     </counts>
   </component>
 </application>

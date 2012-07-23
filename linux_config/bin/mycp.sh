@@ -16,7 +16,7 @@ if [ ! -d $parent_dir ] ; then
 fi
 
 if [ -d $fileName ] ; then
-    exit
+    continue
 fi
 
 if [[ ! -f $toName || $(diff $fileName $toName) ]]; then	

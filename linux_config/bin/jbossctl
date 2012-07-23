@@ -70,18 +70,16 @@ stop()
     else
         echo "ther is no java process "
     fi
-    for i in `seq 1 5`
-    do
-        STR=`ps -C java -f --width 2000 | grep -- "$JBOSS_HOME"`
-        if [ -z "$STR" ]; then
-            echo
-            return
-        fi
-        killall java > /dev/null 2>&1
-        echo -ne "stopping java process $i\r"
-        sleep 1
-    done
-    killall -9 java > /dev/null 2>&1
+   for i in `seq 1 5`
+   do
+       pid=`jps -v | grep jboss | awk '{print $1}'`
+       if [ -z "$pid" ]; then
+           return
+       fi
+       kill -9 $pid
+       echo -ne "stopping java process $i\r"
+       sleep 1
+   done
 }
 
 backup()
