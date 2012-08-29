@@ -94,6 +94,7 @@ endif
         let g:neocomplcache_enable_underbar_completion = 1
         let g:neocomplcache_min_syntax_length = 3
         let g:neocomplcache_enable_auto_delimiter = 1
+        let g:neocomplcache_disable_auto_complete = 1
 
         " AutoComplPop like behavior.
         let g:neocomplcache_enable_auto_select = 0
