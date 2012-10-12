@@ -36,6 +36,7 @@ if !exists("g:override_spf13_bundles")
         if count(g:spf13_bundle_groups, 'ruby')
             Bundle 'rails.vim'
         endif
+
 endif
 
 " Plugins {

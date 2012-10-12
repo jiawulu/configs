@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolSet>
+  <tool name="Open in terminal" description="terminal" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="gnome-terminal" />
+      <option name="PARAMETERS" value="$FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
+

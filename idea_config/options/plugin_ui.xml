@@ -8,7 +8,7 @@
     <option name="myOutdatedPlugins">
       <value>
         <list size="1">
-          <item index="0" class="java.lang.String" itemvalue="com.jetbrains.php.framework" />
+          <item index="0" class="java.lang.String" itemvalue="EclipseCodeFormatter" />
         </list>
       </value>
     </option>

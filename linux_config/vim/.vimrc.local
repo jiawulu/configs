@@ -6,6 +6,7 @@
     "language messages zh_CN.UTF-8 
 " }
 
+""color molokai
 color peaksea
 
 " superTAB {
@@ -114,3 +115,7 @@ endfunction
 nmap <F4> :bdelete<CR>
 
 Bundle 'minibufexpl.vim'
+
+set noswapfile
+set nobackup
+set wrap

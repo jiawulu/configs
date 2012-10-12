@@ -3,8 +3,14 @@
   <component name="PasswordDatabase">
     <option name="PASSWORDS">
       <array>
-        <array />
-        <array />
+        <array>
+          <option value="e86d036dc89ed252627ba61b6023ec0b21cbd58fbbacdbe2b530c4a553903dd8" />
+          <option value="4723073a517d08346159b4f48ae58f3213ea8c20f3e37ffd1f78042ef3966839" />
+        </array>
+        <array>
+          <option value="8962f7731a0b30862b4da5c9d9830a2cc5f5fc1648242d888b16d1668c2dd1ad" />
+          <option value="b1588abc3ea917d6afb6750de9aab41a" />
+        </array>
       </array>
     </option>
   </component>

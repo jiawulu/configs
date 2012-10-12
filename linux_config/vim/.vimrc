@@ -18,7 +18,7 @@
 " Environment {
     " Basics {
         set nocompatible        " must be first line
-        set background=dark     " Assume a dark background
+  ""      set background=dark     " Assume a dark background
     " }
 
     " Windows Compatible {
@@ -65,7 +65,7 @@
     " General
         if count(g:spf13_bundle_groups, 'general')
             Bundle 'scrooloose/nerdtree'
-            "Bundle 'altercation/vim-colors-solarized'
+  ""          Bundle 'altercation/vim-colors-solarized'
             Bundle 'spf13/vim-colors'
             Bundle 'tpope/vim-surround'
             Bundle 'AutoClose'

@@ -3,6 +3,12 @@
   <component name="AppserversManager">
     <LibraryTable />
   </component>
+  <component name="BaseRefactoringSettings">
+    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
+    <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+    <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
+  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -21,7 +27,7 @@
     <option name="EVALUATION_DIALOG_TYPE" value="EvaluateFragment" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
-    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="false" />
     <option name="WATCH_RETURN_VALUES" value="false" />
     <option name="AUTO_VARIABLES_MODE" value="false" />
     <option name="SHOW_LIBRARY_STACKFRAMES" value="true" />
@@ -77,64 +83,87 @@
     <option name="COMMENTS_ONLY" value="false" />
     <option name="STRING_LITERALS_ONLY" value="false" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
-    <option name="REGULAR_EXPRESSIONS" value="false" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.java" />
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="carthsf" />
-          <item index="1" class="java.lang.String" itemvalue="deliveryServiceClient" />
-          <item index="2" class="java.lang.String" itemvalue="carttype" />
-          <item index="3" class="java.lang.String" itemvalue="weight" />
-          <item index="4" class="java.lang.String" itemvalue="size" />
-          <item index="5" class="java.lang.String" itemvalue="deliver" />
-          <item index="6" class="java.lang.String" itemvalue="calculatePostFee" />
-          <item index="7" class="java.lang.String" itemvalue="deliverServiceAO" />
-          <item index="8" class="java.lang.String" itemvalue="splitOrder" />
-          <item index="9" class="java.lang.String" itemvalue="rate" />
-          <item index="10" class="java.lang.String" itemvalue="itemextra" />
-          <item index="11" class="java.lang.String" itemvalue="itemExtra" />
-          <item index="12" class="java.lang.String" itemvalue="EMPTY" />
-          <item index="13" class="java.lang.String" itemvalue="cartHsfService" />
-          <item index="14" class="java.lang.String" itemvalue="key_style_convert" />
-          <item index="15" class="java.lang.String" itemvalue="orderCreateAO" />
-          <item index="16" class="java.lang.String" itemvalue="ttid" />
-          <item index="17" class="java.lang.String" itemvalue="setWapVersionHeader" />
-          <item index="18" class="java.lang.String" itemvalue="appname" />
-          <item index="19" class="java.lang.String" itemvalue="auto" />
-          <item index="20" class="java.lang.String" itemvalue="wapsession" />
-          <item index="21" class="java.lang.String" itemvalue="delete" />
-          <item index="22" class="java.lang.String" itemvalue="SpringAopExceptionLogger" />
-          <item index="23" class="java.lang.String" itemvalue="cartCouts" />
-          <item index="24" class="java.lang.String" itemvalue="rundata" />
-          <item index="25" class="java.lang.String" itemvalue="TreadLocalValve" />
-          <item index="26" class="java.lang.String" itemvalue="request" />
-          <item index="27" class="java.lang.String" itemvalue="taobao" />
-          <item index="28" class="java.lang.String" itemvalue="taobaoactivity" />
-          <item index="29" class="java.lang.String" itemvalue="false" />
+          <item index="0" class="java.lang.String" itemvalue="getdis" />
+          <item index="1" class="java.lang.String" itemvalue="isB" />
+          <item index="2" class="java.lang.String" itemvalue="getskuq" />
+          <item index="3" class="java.lang.String" itemvalue="$priceUnits.get(0)" />
+          <item index="4" class="java.lang.String" itemvalue="ump" />
+          <item index="5" class="java.lang.String" itemvalue="logo" />
+          <item index="6" class="java.lang.String" itemvalue="setadd" />
+          <item index="7" class="java.lang.String" itemvalue="point" />
+          <item index="8" class="java.lang.String" itemvalue="setle" />
+          <item index="9" class="java.lang.String" itemvalue="wdetail_stable" />
+          <item index="10" class="java.lang.String" itemvalue="setPointratio" />
+          <item index="11" class="java.lang.String" itemvalue="points" />
+          <item index="12" class="java.lang.String" itemvalue="layout/detail_iphone.vm" />
+          <item index="13" class="java.lang.String" itemvalue="detail_iphone." />
+          <item index="14" class="java.lang.String" itemvalue="detail_iphone" />
+          <item index="15" class="java.lang.String" itemvalue="priceLi.vm" />
+          <item index="16" class="java.lang.String" itemvalue="valid" />
+          <item index="17" class="java.lang.String" itemvalue="tc" />
+          <item index="18" class="java.lang.String" itemvalue="tp-client" />
+          <item index="19" class="java.lang.String" itemvalue="sic" />
+          <item index="20" class="java.lang.String" itemvalue="ip-cli" />
+          <item index="21" class="java.lang.String" itemvalue="json" />
+          <item index="22" class="java.lang.String" itemvalue="jackson" />
+          <item index="23" class="java.lang.String" itemvalue="manjiusong.vm" />
+          <item index="24" class="java.lang.String" itemvalue="manjiushong.vm" />
+          <item index="25" class="java.lang.String" itemvalue="MinicmsUtils.getConfig(&quot;midwap_enable&quot;,false)" />
+          <item index="26" class="java.lang.String" itemvalue="midwap_enable" />
+          <item index="27" class="java.lang.String" itemvalue="setren" />
+          <item index="28" class="java.lang.String" itemvalue="inventoryAreaReadServiceClient" />
+          <item index="29" class="java.lang.String" itemvalue="inventoryGoICClient" />
         </list>
       </value>
     </option>
     <option name="RECENT_REPLACE_STRINGS">
       <value>
-        <list size="1">
+        <list size="19">
           <item index="0" class="java.lang.String" itemvalue="cartCounts" />
+          <item index="1" class="java.lang.String" itemvalue="key" />
+          <item index="2" class="java.lang.String" itemvalue="3.2.0" />
+          <item index="3" class="java.lang.String" itemvalue="1.0.0.daily" />
+          <item index="4" class="java.lang.String" itemvalue="HotswapClassLoader" />
+          <item index="5" class="java.lang.String" itemvalue="com.taobao.wireless.test.toolkit.LocalFileReader" />
+          <item index="6" class="java.lang.String" itemvalue="" />
+          <item index="7" class="java.lang.String" itemvalue="@RunWith(SpringPlusRunner.class)" />
+          <item index="8" class="java.lang.String" itemvalue="classpath:biz/" />
+          <item index="9" class="java.lang.String" itemvalue="classes/biz" />
+          <item index="10" class="java.lang.String" itemvalue="@Qualifier(&quot;wdetailItemDetailAO&quot;)private ItemDetailAO itemDetailAO;" />
+          <item index="11" class="java.lang.String" itemvalue="." />
+          <item index="12" class="java.lang.String" itemvalue="itemDetailAO" />
+          <item index="13" class="java.lang.String" itemvalue="malldetailskip.consume_wlb_service_version" />
+          <item index="14" class="java.lang.String" itemvalue="com.taobao.wireless.wdetail.core.domain.ItemQuery" />
+          <item index="15" class="java.lang.String" itemvalue="com.taobao.wireless.wdetail.core.query.ItemQuery" />
+          <item index="16" class="java.lang.String" itemvalue="a.tbcdn.cn" />
+          <item index="17" class="java.lang.String" itemvalue="http://a.tbcdn.cn/mw/app/detail/wap/images" />
+          <item index="18" class="java.lang.String" itemvalue="$promUnit" />
         </list>
       </value>
     </option>
     <option name="RECENT_DIR_STRINGS">
       <value>
-        <list size="1">
+        <list size="6">
           <item index="0" class="java.lang.String" itemvalue="$USER_HOME$/workspace/wtm/biz/core/src/java/com/taobao/common/webx/pipeline" />
+          <item index="1" class="java.lang.String" itemvalue="$USER_HOME$/workspace/wdetail/bundle/war/target/wdetail.war" />
+          <item index="2" class="java.lang.String" itemvalue="$USER_HOME$/workspace/trunk/wdetail/web/src/main/webapp/templates/screen/ticket" />
+          <item index="3" class="java.lang.String" itemvalue="$USER_HOME$/workspace/wdetail/web/src/main/resources/tmall" />
+          <item index="4" class="java.lang.String" itemvalue="$USER_HOME$/workspace/branches/malldetailskip" />
+          <item index="5" class="java.lang.String" itemvalue="$USER_HOME$/workspace/wdetail/web/src/main/webapp/templates/control/dxp/common" />
         </list>
       </value>
     </option>
     <option name="RECENT_FILE_MASKS">
       <value>
-        <list size="16">
+        <list size="17">
           <item index="0" class="java.lang.String" itemvalue="*.properties" />
           <item index="1" class="java.lang.String" itemvalue="*.html" />
           <item index="2" class="java.lang.String" itemvalue="*.jsp" />
@@ -147,10 +176,11 @@
           <item index="9" class="java.lang.String" itemvalue="*.rb" />
           <item index="10" class="java.lang.String" itemvalue="*.xml,*.vm" />
           <item index="11" class="java.lang.String" itemvalue="pom.xml" />
-          <item index="12" class="java.lang.String" itemvalue="*.vm" />
-          <item index="13" class="java.lang.String" itemvalue="*.xml" />
-          <item index="14" class="java.lang.String" itemvalue="*.java" />
-          <item index="15" class="java.lang.String" itemvalue="*.*" />
+          <item index="12" class="java.lang.String" itemvalue="*.xml.vm" />
+          <item index="13" class="java.lang.String" itemvalue="*.*" />
+          <item index="14" class="java.lang.String" itemvalue="*.xml" />
+          <item index="15" class="java.lang.String" itemvalue="*.vm" />
+          <item index="16" class="java.lang.String" itemvalue="*.java" />
         </list>
       </value>
     </option>
@@ -172,36 +202,70 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/workspace/galaxy" />
-        <option value="$USER_HOME$/workspace/sirius" />
         <option value="$USER_HOME$/workspace/wdetail" />
-        <option value="$USER_HOME$/workspace/wtm" />
+        <option value="$USER_HOME$/workspace/trunk/malldetailskip" />
         <option value="$USER_HOME$/workspace/mtop" />
+        <option value="$USER_HOME$/workspace/trunk/wdetail_trunk" />
+        <option value="$USER_HOME$/workspace/branches/malldetailskip" />
+        <option value="$USER_HOME$/workspace/trunk/wdetail" />
+        <option value="$USER_HOME$/workspace/wirelesssdk" />
+        <option value="$USER_HOME$/workspace/wirelesssdk/trade" />
+        <option value="$USER_HOME$/www/gh_pages" />
+        <option value="$USER_HOME$/workspace/wirelesssdk/spring-plus" />
+        <option value="$USER_HOME$/workspace/backup/wdetail" />
+        <option value="$USER_HOME$/workspace/sirius" />
+        <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/spring-extend-test" />
+        <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk" />
+        <option value="$USER_HOME$/workspace/wtm" />
+        <option value="$USER_HOME$/workspace/personal/mylab/myJava_lab" />
+        <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-webx3-common" />
+        <option value="$USER_HOME$/workspace/personal/svnhosttrunk/myJava_lab" />
+        <option value="$USER_HOME$/workspace/galaxy" />
         <option value="$USER_HOME$/workspace/wireless-hsf-test" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-urihandler-webx3" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-webx-util" />
-        <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-webx3-common" />
-        <option value="$USER_HOME$/workspace/trunk/wdetail" />
         <option value="$USER_HOME$/workspace/trunk/mtop" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/wdetail" />
       </list>
     </option>
     <option name="names">
       <map>
+        <entry key="$USER_HOME$/workspace/backup/wdetail" value="" />
+        <entry key="$USER_HOME$/workspace/branches/malldetailskip" value="" />
+        <entry key="$USER_HOME$/workspace/galaxy" value="" />
         <entry key="$USER_HOME$/workspace/mtop" value="" />
+        <entry key="$USER_HOME$/workspace/personal/mylab/myJava_lab" value="" />
+        <entry key="$USER_HOME$/workspace/personal/svnhosttrunk/myJava_lab" value="" />
+        <entry key="$USER_HOME$/workspace/sirius" value="" />
+        <entry key="$USER_HOME$/workspace/trunk/malldetailskip" value="" />
         <entry key="$USER_HOME$/workspace/trunk/mtop" value="" />
         <entry key="$USER_HOME$/workspace/trunk/wdetail" value="" />
+        <entry key="$USER_HOME$/workspace/trunk/wdetail_trunk" value="" />
         <entry key="$USER_HOME$/workspace/wdetail" value="" />
         <entry key="$USER_HOME$/workspace/wireless-hsf-test" value="" />
+        <entry key="$USER_HOME$/workspace/wirelesssdk" value="" />
+        <entry key="$USER_HOME$/workspace/wirelesssdk/spring-plus" value="" />
+        <entry key="$USER_HOME$/workspace/wirelesssdk/trade" value="" />
+        <entry key="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk" value="" />
+        <entry key="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/spring-extend-test" value="" />
         <entry key="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-urihandler-webx3" value="" />
         <entry key="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-webx-util" value="" />
         <entry key="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-webx3-common" value="" />
         <entry key="$USER_HOME$/workspace/wtm" value="" />
+        <entry key="$USER_HOME$/www/gh_pages" value="" />
       </map>
     </option>
-    <option name="lastPath" value="$USER_HOME$/workspace/galaxy" />
+    <option name="lastPath" value="$USER_HOME$/workspace/wdetail" />
   </component>
   <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
     <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
     <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
   </component>
@@ -246,11 +310,14 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1343006861704" />
-    <option name="LAST_BUILD_CHECKED" value="IU-117.418" />
+    <option name="LAST_TIME_CHECKED" value="1350006308209" />
+    <option name="LAST_BUILD_CHECKED" value="IU-117.798" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
   <component name="UsageViewSettings">
+    <option name="filterDuplicatedLine" value="true" />
+    <option name="IS_FILTER_DUPLICATED_LINE" value="true" />
+    <option name="GROUP_BY_MODULE" value="false" />
     <option name="GROUP_BY_PACKAGE" value="false" />
     <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
   </component>
@@ -259,11 +326,6 @@
     <debuggers>
       <debugger id="groovy_debugger">
         <configuration />
-      </debugger>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
       </debugger>
     </debuggers>
   </component>

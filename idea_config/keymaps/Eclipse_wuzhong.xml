@@ -3,6 +3,21 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt PERIOD" />
   </action>
+  <action id="Github.Create.Gist">
+    <keyboard-shortcut first-keystroke="alt G" />
+  </action>
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="alt P" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="control alt R" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift F8" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
@@ -17,6 +32,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="Tool_Open in terminal">
+    <keyboard-shortcut first-keystroke="alt T" />
   </action>
 </keymap>
 

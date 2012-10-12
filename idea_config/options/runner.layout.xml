@@ -46,7 +46,7 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="FrameContent" />
-        <option name="minimizedInGrid" value="false" />
+        <option name="minimizedInGrid" value="true" />
         <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
@@ -67,7 +67,7 @@
       </ViewImpl>
       <ViewImpl>
         <option name="ID" value="ThreadsContent" />
-        <option name="minimizedInGrid" value="true" />
+        <option name="minimizedInGrid" value="false" />
         <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
@@ -80,9 +80,9 @@
         <option name="displayName" value="Debugger" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.05644482" />
+        <option name="leftProportion" value="0.21988206" />
         <option name="rightDetached" value="false" />
-        <option name="rightProportion" value="0.07497894" />
+        <option name="rightProportion" value="0.08677338" />
       </TabImpl>
       <TabImpl>
         <option name="bottomDetached" value="false" />
