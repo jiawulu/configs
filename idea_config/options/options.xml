@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="CommitChangelistDialog.1280.0.1280.1024" x="4" y="19" />
+    <location key="CommitChangelistDialog.1280.0.1280.1024" x="-2" y="19" />
     <location key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialog.0.0.1280.1024" x="112" y="197" />
     <location key="FileChooserDialogImpl.0.0.1280.1024" x="187" y="203" />
     <location key="#Notifications.0.0.1280.1024" x="356" y="200" />
@@ -95,7 +95,7 @@
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1280.0.1280.1024" x="1630" y="233" />
     <location key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.0.0.1280.1024" x="410" y="210" />
     <location key="dock-window-1.0.0.1280.1024" x="1371" y="63" />
-    <location key="findTextDialog.1280.0.1280.1024" x="1527" y="51" />
+    <location key="findTextDialog.1280.0.1280.1024" x="1515" y="35" />
     <location key="replaceTextDialog.0.0.1280.1024" x="361" y="227" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1280.1024" x="329" y="220" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1280.0.1280.1024" x="1657" y="390" />

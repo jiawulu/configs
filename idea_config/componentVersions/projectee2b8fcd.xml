@@ -2,7 +2,7 @@
 <versions>
   <component name="AntConfiguration" version="1344565850006" />
   <component name="BookmarkManager" version="1345528011232" />
-  <component name="ChangeListManager" version="1350036085512" />
+  <component name="ChangeListManager" version="1350037565969" />
   <component name="ChangesViewManager" version="1350019779555" />
   <component name="CompilerConfiguration" version="1350019779555" />
   <component name="CoverageDataManager" version="1350019779555" />
@@ -14,14 +14,14 @@
   <component name="EntryPointsManager" version="1350019779557" />
   <component name="ErrorTreeViewConfiguration" version="1348625925360" />
   <component name="FavoritesManager" version="1350019779557" />
-  <component name="FileEditorManager" version="1350036085514" />
+  <component name="FileEditorManager" version="1350037860461" />
   <component name="FindManager" version="1350019779560" />
   <component name="FrameworkCommandLineHistory" version="1344565626764" />
   <component name="FrameworkDetectionExcludesConfiguration" version="1345528011256" />
   <component name="HierarchyBrowserManager" version="1348567645253" />
   <component name="HighlightingSettingsPerFile" version="1341985594260" />
   <component name="IdProvider" version="1350019779561" />
-  <component name="IdeDocumentHistory" version="1350036030324" />
+  <component name="IdeDocumentHistory" version="1350037565980" />
   <component name="JavacSettings" version="1350019779566" />
   <component name="LogSupport" version="1341465417776" />
   <component name="MavenImportPreferences" version="1350019779566" />
@@ -47,13 +47,13 @@
   <component name="SvnFileUrlMappingImpl" version="1350019779570" />
   <component name="TaskManager" version="1350036085521" />
   <component name="TodoView" version="1347594142630" />
-  <component name="ToolWindowManager" version="1350036131511" />
+  <component name="ToolWindowManager" version="1350037860469" />
   <component name="VcsContentAnnotationSettings" version="1350019779572" />
   <component name="VcsDirectoryMappings" version="1350019779572" />
   <component name="VcsManagerConfiguration" version="1350023729339" />
   <component name="XDebuggerManager" version="1350019779572" />
   <component name="antWorkspaceConfiguration" version="1344565850034" />
-  <component name="editorHistoryManager" version="1350036085523" />
+  <component name="editorHistoryManager" version="1350037860473" />
   <component name="masterDetails" version="1346144293389" />
 </versions>
 
