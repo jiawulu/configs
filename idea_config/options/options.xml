@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="CommitChangelistDialog.1280.0.1280.1024" x="10" y="19" />
+    <location key="CommitChangelistDialog.1280.0.1280.1024" x="4" y="19" />
     <location key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialog.0.0.1280.1024" x="112" y="197" />
     <location key="FileChooserDialogImpl.0.0.1280.1024" x="187" y="203" />
     <location key="#Notifications.0.0.1280.1024" x="356" y="200" />
@@ -42,7 +42,7 @@
     <location key="VCS.ChangelistChooser.1280.0.1280.1024" x="1706" y="312" />
     <location key="com.jetbrains.php.framework.custom.CustomFrameworkDialog.0.0.1280.1024" x="462" y="341" />
     <location key="NewModule_or_Project.wizard" x="53" y="147" />
-    <location key="OptionsEditor.1280.0.1280.1024" x="6" y="19" />
+    <location key="OptionsEditor.1280.0.1280.1024" x="0" y="19" />
     <location key="#com.intellij.openapi.editor.actions.MultiplePasteAction.Chooser.0.0.1280.1024" x="418" y="88" />
     <location key="com.intellij.history.integration.ui.views.FileHistoryDialog" x="1334" y="138" />
     <location key="FileChooserDialogImpl.1280.0.1280.1024" x="1587" y="153" />
@@ -50,7 +50,7 @@
     <location key="ActivateTaskDialog.1280.0.1280.1024" x="1600" y="403" />
     <location key="#com.intellij.ide.util.MemberChooser.1280.0.1280.1024" x="29" y="19" />
     <location key="#Plugins.0.0.1280.1024" x="200" y="142" />
-    <location key="DiffWindow" x="-10" y="19" />
+    <location key="DiffWindow" x="1356" y="68" />
     <location key="svn.passwordDialog.1280.0.1280.1024" x="1576" y="393" />
     <location key="#com.intellij.ide.util.PackageChooserDialog.1280.0.1280.1024" x="1641" y="474" />
     <location key="NewModule_or_Project.wizard.0.0.1280.1024" x="66" y="156" />
@@ -100,7 +100,7 @@
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1280.1024" x="329" y="220" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1280.0.1280.1024" x="1657" y="390" />
     <location key="#com.intellij.debugger.ui.EvaluationDialog2.1280.0.1280.1024" x="89" y="156" />
-    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.0.1280.1024" x="1454" y="154" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.0.1280.1024" x="1430" y="122" />
     <location key="NewModule_or_Project.wizard.1280.0.1280.1024" x="1340" y="123" />
     <location key="spring file set editor.1280.0.1280.1024" x="0" y="183" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.1280.0.1280.1024" x="1543" y="276" />
@@ -155,7 +155,7 @@
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog" width="1185" height="814" />
     <size key="GridCell.Tab.0.left.0.0.1280.1024" width="1233" height="425" />
     <size key="#com.intellij.debugger.ui.EvaluationDialog2.1280.0.1280.1024" width="1126" height="746" />
-    <size key="DiffWindow" width="1300" height="1014" />
+    <size key="DiffWindow" width="1092" height="838" />
     <size key="svn.passwordDialog.1280.0.1280.1024" width="670" height="221" />
     <size key="Subversion.BranchConfigurationDialog.1280.0.1280.1024" width="424" height="300" />
     <size key="GridCell.Tab.1.left.1280.0.1280.1024" width="1233" height="250" />
@@ -169,7 +169,7 @@
     <extendedState key="CommittedChanges.SplitterProportions.0" state="700" />
     <extendedState key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
-    <extendedState key="DiffWindow" state="6" />
+    <extendedState key="DiffWindow" state="0" />
     <extendedState key="CommittedChanges.SplitterProportions.1" state="500" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="182" />
     <extendedState key="dock-window-1" state="0" />

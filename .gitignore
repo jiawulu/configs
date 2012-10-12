@@ -1,1 +1,4 @@
-# ignore idea_config/options/* idea_config/componentVersions/* idea_config/tasks/*
+test
+idea_config/tasks/*
+idea_config/options/*
+idea_config/componentVersions/*
