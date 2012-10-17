@@ -22,7 +22,7 @@ let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
 Bundle 'snipMate'
 Bundle 'Random-Tip-Displayer'
-Bundle 'vimtabs.vim'
+""Bundle 'vimtabs.vim'
 
 " javascript supprt {
 Bundle 'Simple-Javascript-Indenter'
@@ -54,7 +54,7 @@ hi CursorLine   cterm=NONE term=NONE ctermfg=NONE  guibg=darkred guifg=white gui
 
 Bundle 'tpope/vim-fugitive'
 if has('statusline')
-        set laststatus=2
+""        set laststatus=2
         " Broken down into easily includeable segments
         set statusline=%<%f\    " Filename
         set statusline+=%w%h%m%r " Options
