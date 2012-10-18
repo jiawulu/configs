@@ -42,7 +42,10 @@ JAVA_OPTS="$JAVA_OPTS -Djava.awt.headless=true -Dcom.sun.management.jmxremote.po
 JAVA_OPTS="$JAVA_OPTS -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n"
 
 #add gc log
-JAVA_OPTS="$JAVA_OPTS -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:$BASE_HOME/logs/jboss_gc.log -XX:+PrintHeapAtGC"
+#JAVA_OPTS="$JAVA_OPTS -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:$BASE_HOME/logs/jboss_gc.log -XX:+PrintHeapAtGC"
+
+
+JAVA_OPTS="$JAVA_OPTS -verbose:class"
 
 #JAVA_OPTS="$JAVA_OPTS -agentlib:jprofilerti=port=8849,nowait -Xbootclasspath/a:/home/admin/jprofiler6/bin/agent.jar"
 

@@ -38,16 +38,16 @@
     </runner>
     <runner id="JavaDebugger">
       <ViewImpl>
-        <option name="ID" value="WatchesContent" />
-        <option name="minimizedInGrid" value="false" />
-        <option name="placeInGrid" value="right" />
+        <option name="ID" value="FrameContent" />
+        <option name="minimizedInGrid" value="true" />
+        <option name="placeInGrid" value="left" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
       <ViewImpl>
-        <option name="ID" value="FrameContent" />
-        <option name="minimizedInGrid" value="true" />
-        <option name="placeInGrid" value="left" />
+        <option name="ID" value="WatchesContent" />
+        <option name="minimizedInGrid" value="false" />
+        <option name="placeInGrid" value="right" />
         <option name="tabIndex" value="0" />
         <option name="window" value="0" />
       </ViewImpl>
@@ -80,7 +80,7 @@
         <option name="displayName" value="Debugger" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.21988206" />
+        <option name="leftProportion" value="0.5130581" />
         <option name="rightDetached" value="false" />
         <option name="rightProportion" value="0.08677338" />
       </TabImpl>

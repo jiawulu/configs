@@ -2,11 +2,13 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="Framework Detection" />
     <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
-    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="HotSwap" displayType="TOOL_WINDOW" />
     <notification groupId="Compiler" displayType="NONE" />
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Grape" />
     <notification groupId="FindInPath" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Git Minor Notifications" />
@@ -16,21 +18,19 @@
     <notification groupId="OSGi important errors" displayType="STICKY_BALLOON" />
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
     <notification groupId="Groovy DSL errors" />
-    <notification groupId="HotSwap" displayType="TOOL_WINDOW" />
-    <notification groupId="Project Loading Error" />
-    <notification groupId="Reformat Code" />
-    <notification groupId="AIR Packaging" />
-    <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="Plugin Error" />
-    <notification groupId="color" />
-    <notification groupId="Command Line Tool" />
-    <notification groupId="System Messages" />
-    <notification groupId="Eclipse code formatter info" />
-    <notification groupId="Eclipse code formatter error" />
-    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="Test Runner" displayType="NONE" />
-    <notification groupId="Execution" displayType="NONE" />
     <notification groupId="Maven" />
+    <notification groupId="Execution" displayType="NONE" />
+    <notification groupId="Eclipse code formatter error" />
+    <notification groupId="Eclipse code formatter info" />
+    <notification groupId="System Messages" />
+    <notification groupId="Command Line Tool" />
+    <notification groupId="color" />
+    <notification groupId="Plugin Error" />
+    <notification groupId="Flash app not compiled before launch" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="AIR Packaging" />
+    <notification groupId="Reformat Code" />
+    <notification groupId="Project Loading Error" />
+    <notification groupId="Test Runner" displayType="NONE" />
     <toolWindow group="Flash app not compiled before launch" />
     <toolWindow group="Git Messages" />
     <toolWindow group="External Executable Critical Failures" />
