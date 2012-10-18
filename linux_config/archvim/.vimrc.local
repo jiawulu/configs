@@ -1,0 +1,121 @@
+" encoding {
+    set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+    set encoding=utf-8
+    "set termencoding=cp936
+    set fileencoding=utf-8
+    "language messages zh_CN.UTF-8 
+" }
+
+""color molokai
+color peaksea
+
+" superTAB {
+Bundle 'SuperTab'
+"supertab,snipmate
+"When you input a tab, it will 
+"1. check whether there is a snipMate snippet match the pattern. 
+"2. if there is no snipMate snippet match the pattern, it will use supertab instead. 
+let g:SuperTabMappingForward="<tab>"
+let g:SuperTabRetainCompletionType=2
+let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+" }
+
+Bundle 'snipMate'
+Bundle 'Random-Tip-Displayer'
+Bundle 'vimtabs.vim'
+
+" javascript supprt {
+Bundle 'Simple-Javascript-Indenter'
+let g:SimpleJsIndenter_BriefMode = 1
+Bundle 'JavaScript-syntax'
+
+if executable('d8')
+    Bundle 'lint.vim'
+    ""let jshint_highlight_color = 'DarkGray'
+    let disable_lint = 1
+endif
+" }
+
+" tagbar {
+let g:tagbar_type_javascript = {
+    \ 'ctagstype' : 'JavaScript',
+    \ 'kinds'     : [
+        \ 'o:objects',
+        \ 'f:functions',
+        \ 'a:arrays',
+        \ 's:strings'
+    \ ]
+\ }
+" }
+
+Bundle 'jsbeautify'
+
+hi CursorLine   cterm=NONE term=NONE ctermfg=NONE  guibg=darkred guifg=white gui=NONE
+
+Bundle 'tpope/vim-fugitive'
+if has('statusline')
+        set laststatus=2
+        " Broken down into easily includeable segments
+        set statusline=%<%f\    " Filename
+        set statusline+=%w%h%m%r " Options
+        " set statusline+=%{fugitive#statusline()} "  Git Hotness
+        set statusline+=\ [%{&ff}/%Y]            " filetype
+        set statusline+=\ [%{getcwd()}]          " current dir
+        set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
+    endif
+
+
+" Functions {
+
+function! InitializeDirectories()
+    let separator = "."
+    let parent = $HOME
+    let prefix = '.vim'
+    let dir_list = {
+                \ 'backup': 'backupdir',
+                \ 'views': 'viewdir',
+                \ 'swap': 'directory' }
+
+    if has('persistent_undo')
+        let dir_list['undo'] = 'undodir'
+    endif
+
+    for [dirname, settingname] in items(dir_list)
+        let directory = parent . '/' . prefix . dirname . "/"
+        if exists("*mkdir")
+            if !isdirectory(directory)
+                call mkdir(directory)
+            endif
+        endif
+        if !isdirectory(directory)
+            echo "Warning: Unable to create backup directory: " . directory
+            echo "Try: mkdir -p " . directory
+        else
+            let directory = substitute(directory, " ", "\\\\ ", "g")
+            exec "set " . settingname . "=" . directory
+        endif
+    endfor
+endfunction
+call InitializeDirectories()
+
+function! NERDTreeInitAsNeeded()
+    redir => bufoutput
+    buffers!
+    redir END
+    let idx = stridx(bufoutput, "NERD_tree")
+    if idx > -1
+        NERDTreeMirror
+        NERDTreeFind
+        wincmd l
+    endif
+endfunction
+" }
+
+
+nmap <F4> :bdelete<CR>
+
+Bundle 'minibufexpl.vim'
+
+set noswapfile
+set nobackup
+set wrap
