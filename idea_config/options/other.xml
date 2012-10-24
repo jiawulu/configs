@@ -4,7 +4,6 @@
     <LibraryTable />
   </component>
   <component name="BaseRefactoringSettings">
-    <option name="SAFE_DELETE_WHEN_DELETE" value="false" />
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FILE" value="false" />
     <option name="RENAME_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
     <option name="MOVE_SEARCH_FOR_REFERENCES_FOR_FILE" value="false" />
@@ -86,41 +85,41 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
-    <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.xml.vm" />
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="itemServiceClient" />
-          <item index="1" class="java.lang.String" itemvalue="relatedTairManager" />
-          <item index="2" class="java.lang.String" itemvalue="nptairManager" />
-          <item index="3" class="java.lang.String" itemvalue="tgservice" />
-          <item index="4" class="java.lang.String" itemvalue="nsip" />
-          <item index="5" class="java.lang.String" itemvalue="snsju" />
-          <item index="6" class="java.lang.String" itemvalue="common.tfs" />
-          <item index="7" class="java.lang.String" itemvalue="promotion-common-cli" />
-          <item index="8" class="java.lang.String" itemvalue="name" />
-          <item index="9" class="java.lang.String" itemvalue="localcache" />
-          <item index="10" class="java.lang.String" itemvalue="sns" />
-          <item index="11" class="java.lang.String" itemvalue="ehcache" />
-          <item index="12" class="java.lang.String" itemvalue="低于同行" />
-          <item index="13" class="java.lang.String" itemvalue="sku" />
-          <item index="14" class="java.lang.String" itemvalue="getnext" />
-          <item index="15" class="java.lang.String" itemvalue="nextnodekey" />
-          <item index="16" class="java.lang.String" itemvalue="MinicmsCacheFileHolder" />
-          <item index="17" class="java.lang.String" itemvalue="skuNext" />
-          <item index="18" class="java.lang.String" itemvalue="backsku" />
-          <item index="19" class="java.lang.String" itemvalue="skusel" />
-          <item index="20" class="java.lang.String" itemvalue="queryitembyid" />
-          <item index="21" class="java.lang.String" itemvalue="queryitembyidwithcache" />
-          <item index="22" class="java.lang.String" itemvalue="tair.m" />
-          <item index="23" class="java.lang.String" itemvalue="tfs" />
-          <item index="24" class="java.lang.String" itemvalue="skuparamsel" />
-          <item index="25" class="java.lang.String" itemvalue="开始找页面模板" />
-          <item index="26" class="java.lang.String" itemvalue="Profiler.enter" />
-          <item index="27" class="java.lang.String" itemvalue="Profiler.release()" />
-          <item index="28" class="java.lang.String" itemvalue="Profiler" />
-          <item index="29" class="java.lang.String" itemvalue="tp-cli" />
+          <item index="0" class="java.lang.String" itemvalue="getbp" />
+          <item index="1" class="java.lang.String" itemvalue="item*service" />
+          <item index="2" class="java.lang.String" itemvalue="itemQueryServiceClientLocal" />
+          <item index="3" class="java.lang.String" itemvalue="itemQueryServiceL0" />
+          <item index="4" class="java.lang.String" itemvalue="postfee" />
+          <item index="5" class="java.lang.String" itemvalue="itemService" />
+          <item index="6" class="java.lang.String" itemvalue="shopPromResult" />
+          <item index="7" class="java.lang.String" itemvalue="shopQuery" />
+          <item index="8" class="java.lang.String" itemvalue="sph.entry()" />
+          <item index="9" class="java.lang.String" itemvalue="ponits" />
+          <item index="10" class="java.lang.String" itemvalue="point" />
+          <item index="11" class="java.lang.String" itemvalue="velocity" />
+          <item index="12" class="java.lang.String" itemvalue="currentTemplateName" />
+          <item index="13" class="java.lang.String" itemvalue="printfield" />
+          <item index="14" class="java.lang.String" itemvalue="gettem" />
+          <item index="15" class="java.lang.String" itemvalue="Field" />
+          <item index="16" class="java.lang.String" itemvalue="2882" />
+          <item index="17" class="java.lang.String" itemvalue="tag" />
+          <item index="18" class="java.lang.String" itemvalue="queryItemById" />
+          <item index="19" class="java.lang.String" itemvalue="ItemQueryService" />
+          <item index="20" class="java.lang.String" itemvalue="itemQueryService" />
+          <item index="21" class="java.lang.String" itemvalue="queryItembyId" />
+          <item index="22" class="java.lang.String" itemvalue="queryItembyid" />
+          <item index="23" class="java.lang.String" itemvalue="DefaultRateCenterCommonRule" />
+          <item index="24" class="java.lang.String" itemvalue="ump" />
+          <item index="25" class="java.lang.String" itemvalue="itemquery" />
+          <item index="26" class="java.lang.String" itemvalue="sic" />
+          <item index="27" class="java.lang.String" itemvalue="getfeaturemap" />
+          <item index="28" class="java.lang.String" itemvalue="logger" />
+          <item index="29" class="java.lang.String" itemvalue="parent" />
         </list>
       </value>
     </option>
@@ -178,12 +177,12 @@
           <item index="9" class="java.lang.String" itemvalue="*.rb" />
           <item index="10" class="java.lang.String" itemvalue="*.xml,*.vm" />
           <item index="11" class="java.lang.String" itemvalue="pom.xml" />
-          <item index="12" class="java.lang.String" itemvalue="*.xml.vm" />
-          <item index="13" class="java.lang.String" itemvalue="*.*" />
-          <item index="14" class="java.lang.String" itemvalue="*.jav" />
-          <item index="15" class="java.lang.String" itemvalue="*.xml" />
-          <item index="16" class="java.lang.String" itemvalue="*.vm" />
-          <item index="17" class="java.lang.String" itemvalue="*.java" />
+          <item index="12" class="java.lang.String" itemvalue="*.*" />
+          <item index="13" class="java.lang.String" itemvalue="*.jav" />
+          <item index="14" class="java.lang.String" itemvalue="*.vm" />
+          <item index="15" class="java.lang.String" itemvalue="*.java" />
+          <item index="16" class="java.lang.String" itemvalue="*.xml" />
+          <item index="17" class="java.lang.String" itemvalue="*.xml.vm" />
         </list>
       </value>
     </option>
@@ -205,9 +204,12 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/workspace/wdetail" />
-        <option value="$USER_HOME$/workspace/wirelesssdk" />
+        <option value="$USER_HOME$/workspace/personal/mylab-java" />
         <option value="$USER_HOME$/workspace/mtop" />
+        <option value="$USER_HOME$/workspace/wdetail" />
+        <option value="$USER_HOME$/workspace/personal/mylab-java/mylab-java" />
+        <option value="$USER_HOME$/workspace/personal/mylab/myJava_lab" />
+        <option value="$USER_HOME$/workspace/wirelesssdk" />
         <option value="$USER_HOME$/workspace/trunk/malldetailskip" />
         <option value="$USER_HOME$/workspace/trunk/wdetail_trunk" />
         <option value="$USER_HOME$/workspace/branches/malldetailskip" />
@@ -220,7 +222,6 @@
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/spring-extend-test" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk" />
         <option value="$USER_HOME$/workspace/wtm" />
-        <option value="$USER_HOME$/workspace/personal/mylab/myJava_lab" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-webx3-common" />
         <option value="$USER_HOME$/workspace/personal/svnhosttrunk/myJava_lab" />
         <option value="$USER_HOME$/workspace/galaxy" />
@@ -233,6 +234,7 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/workspace/wdetail" />
+        <option value="$USER_HOME$/workspace/personal/mylab-java" />
       </list>
     </option>
     <option name="names">
@@ -241,6 +243,8 @@
         <entry key="$USER_HOME$/workspace/branches/malldetailskip" value="" />
         <entry key="$USER_HOME$/workspace/galaxy" value="" />
         <entry key="$USER_HOME$/workspace/mtop" value="" />
+        <entry key="$USER_HOME$/workspace/personal/mylab-java" value="" />
+        <entry key="$USER_HOME$/workspace/personal/mylab-java/mylab-java" value="" />
         <entry key="$USER_HOME$/workspace/personal/mylab/myJava_lab" value="" />
         <entry key="$USER_HOME$/workspace/personal/svnhosttrunk/myJava_lab" value="" />
         <entry key="$USER_HOME$/workspace/sirius" value="" />
@@ -262,7 +266,7 @@
         <entry key="$USER_HOME$/www/gh_pages" value="" />
       </map>
     </option>
-    <option name="lastPath" value="$USER_HOME$/workspace/wdetail" />
+    <option name="lastPath" value="$USER_HOME$/workspace/personal/mylab-java" />
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
@@ -313,7 +317,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1350352791787" />
+    <option name="LAST_TIME_CHECKED" value="1350959147978" />
     <option name="LAST_BUILD_CHECKED" value="IU-117.798" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
@@ -385,8 +389,8 @@
     <j2ee_templates />
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="UISettings">
-    <option name="FONT_FACE" value="LiHei Pro" />
+    <option name="FONT_FACE" value="Ubuntu" />
     <option name="FONT_SIZE" value="14" />
     <option name="SHOW_MAIN_TOOLBAR" value="false" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="true" />
