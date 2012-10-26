@@ -2,18 +2,24 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="libraries">
-      <project id="wirelesssdk" values="spring-mvc,groovy,spring" />
-      <project id="malldetailskip" values="spring-mvc,spring,groovy" />
-      <project id="wireless-webx3-common" values="spring,spring-mvc,groovy" />
-      <project id="wtm" values="spring,groovy,spring-mvc" />
-      <project id="wdetail" values="spring-mvc,groovy,spring" />
+      <project id="wirelesssdk" values="spring-mvc,spring,groovy" />
+      <project id="malldetailskip" values="groovy,spring,spring-mvc" />
+      <project id="wireless-webx3-common" values="spring,groovy,spring-mvc" />
+      <project id="wtm" values="groovy,spring-mvc,spring" />
+      <project id="wdetail" values="groovy,spring,spring-mvc" />
       <project id="spring-extend-test" values="spring" />
-      <project id="sirius" values="spring,spring-mvc,groovy" />
-      <project id="wireless-common-urihandler-webx3" values="spring,groovy,spring-mvc" />
-      <project id="wireless-hsf-test" values="groovy,spring,spring-mvc" />
-      <project id="mtop" values="spring-mvc,groovy,spring" />
-      <project id="wireless-common-webx-util" values="spring,spring-mvc" />
-      <project id="galaxy" values="spring,groovy,spring-mvc" />
+      <project id="sirius" values="groovy,spring,spring-mvc" />
+      <project id="wireless-common-urihandler-webx3" values="groovy,spring-mvc,spring" />
+      <project id="wireless-hsf-test" values="spring-mvc,spring,groovy" />
+      <project id="mtop" values="spring,groovy,spring-mvc" />
+      <project id="wireless-common-webx-util" values="spring-mvc,spring" />
+      <project id="galaxy" values="groovy,spring-mvc,spring" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="wtm" values="Remote" />
+      <project id="wdetail" values="Remote" />
+      <project id="sirius" values="JUnit,Remote" />
+      <project id="mtop" values="Remote" />
     </group>
     <group name="language-level">
       <project id="wirelesssdk" values="JDK_1_6,JDK_1_5" />
@@ -33,9 +39,27 @@
       <project id="wireless-hsf-test" values="JDK_1_6" />
       <project id="galaxy" values="JDK_1_6" />
     </group>
+    <group name="module type">
+      <project id="wirelesssdk" values="JAVA_MODULE" />
+      <project id="wireless-webx3-common" values="JAVA_MODULE" />
+      <project id="wtm" values="JAVA_MODULE" />
+      <project id="gh_pages" values="WEB_MODULE" />
+      <project id="mtop" values="JAVA_MODULE" />
+      <project id="wireless-common-webx-util" values="JAVA_MODULE" />
+      <project id="malldetailskip" values="JAVA_MODULE" />
+      <project id="mylab-java" values="JAVA_MODULE" />
+      <project id="wdetail" values="JAVA_MODULE" />
+      <project id="spring-extend-test" values="JAVA_MODULE" />
+      <project id="sirius" values="JAVA_MODULE" />
+      <project id="wireless-common-urihandler-webx3" values="JAVA_MODULE" />
+      <project id="btrace-demo" values="JAVA_MODULE" />
+      <project id="wireless-hsf-test" values="JAVA_MODULE" />
+      <project id="galaxy" values="JAVA_MODULE" />
+    </group>
     <group name="vcs">
       <project id="malldetailskip" values="svn" />
       <project id="wirelesssdk" values="svn" />
+      <project id="mylab-java" values="Git" />
       <project id="wtm" values="svn" />
       <project id="wdetail" values="svn" />
       <project id="spring-extend-test" values="svn" />
@@ -46,64 +70,22 @@
       <project id="mtop" values="svn" />
       <project id="galaxy" values="svn" />
     </group>
-    <group name="Command line tool">
-      <project id="wdetail" values="console in toolwindow" />
-      <project id="sirius" values="console in toolwindow" />
-    </group>
     <group name="frameworks">
       <project id="malldetailskip" values="Spring" />
       <project id="wdetail" values="Spring" />
     </group>
-    <group name="spring">
-      <project id="malldetailskip" values="mvc" />
-      <project id="wirelesssdk" values="mvc" />
-      <project id="wireless-webx3-common" values="mvc" />
-      <project id="wtm" values="mvc" />
-      <project id="wdetail" values="mvc" />
-      <project id="sirius" values="mvc" />
-      <project id="wireless-common-urihandler-webx3" values="mvc" />
-      <project id="wireless-hsf-test" values="mvc" />
-      <project id="mtop" values="mvc" />
-      <project id="galaxy" values="mvc" />
-    </group>
-    <group name="run-configuration-type">
-      <project id="wtm" values="Remote" />
-      <project id="wdetail" values="Remote" />
-      <project id="sirius" values="Remote,JUnit" />
-      <project id="mtop" values="Remote" />
-    </group>
-    <group name="module type">
-      <project id="wirelesssdk" values="JAVA_MODULE" />
-      <project id="wireless-webx3-common" values="JAVA_MODULE" />
-      <project id="wtm" values="JAVA_MODULE" />
-      <project id="gh_pages" values="WEB_MODULE" />
-      <project id="mtop" values="JAVA_MODULE" />
-      <project id="wireless-common-webx-util" values="JAVA_MODULE" />
-      <project id="malldetailskip" values="JAVA_MODULE" />
-      <project id="wdetail" values="JAVA_MODULE" />
-      <project id="spring-extend-test" values="JAVA_MODULE" />
-      <project id="sirius" values="JAVA_MODULE" />
-      <project id="btrace-demo" values="JAVA_MODULE" />
-      <project id="wireless-common-urihandler-webx3" values="JAVA_MODULE" />
-      <project id="wireless-hsf-test" values="JAVA_MODULE" />
-      <project id="galaxy" values="JAVA_MODULE" />
+    <group name="Command line tool">
+      <project id="wdetail" values="console in toolwindow" />
+      <project id="sirius" values="console in toolwindow" />
     </group>
     <group name="run-configuration-type-temp">
+      <project id="mylab-java" values="Application" />
       <project id="wdetail" values="JUnit,Application" />
       <project id="spring-extend-test" values="JUnit" />
       <project id="sirius" values="JUnit" />
       <project id="btrace-demo" values="JUnit" />
       <project id="wireless-hsf-test" values="JUnit" />
       <project id="mtop" values="Application" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="myJava_lab" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="wireless-webx3-common" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="wdetail" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="sirius" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="btrace-demo" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="gh_pages" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
-      <project id="galaxy" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
     </group>
     <group name="JavaScript versions">
       <project id="wireless-webx3-common" values="DEFAULT" />
@@ -119,15 +101,37 @@
       <project id="wireless-common-webx-util" values="DEFAULT" />
       <project id="galaxy" values="DEFAULT" />
     </group>
+    <group name="javaScript Scope Usages">
+      <project id="myJava_lab" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="wireless-webx3-common" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="wdetail" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="sirius" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="btrace-demo" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="gh_pages" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="galaxy" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+    </group>
+    <group name="spring">
+      <project id="malldetailskip" values="mvc" />
+      <project id="wirelesssdk" values="mvc" />
+      <project id="wireless-webx3-common" values="mvc" />
+      <project id="wtm" values="mvc" />
+      <project id="wdetail" values="mvc" />
+      <project id="sirius" values="mvc" />
+      <project id="wireless-common-urihandler-webx3" values="mvc" />
+      <project id="wireless-hsf-test" values="mvc" />
+      <project id="mtop" values="mvc" />
+      <project id="galaxy" values="mvc" />
+    </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.Application.Debug" count="4" />
+      <entry feature="execute.Application.Coverage" count="1" />
+      <entry feature="execute.Application.Debug" count="8" />
       <entry feature="execute.Application.Run" count="9" />
       <entry feature="execute.JUnit.Coverage" count="1" />
       <entry feature="execute.JUnit.Debug" count="167" />
-      <entry feature="execute.JUnit.Run" count="197" />
-      <entry feature="execute.Remote.Debug" count="153" />
+      <entry feature="execute.JUnit.Run" count="205" />
+      <entry feature="execute.Remote.Debug" count="154" />
     </counts>
   </component>
 </application>

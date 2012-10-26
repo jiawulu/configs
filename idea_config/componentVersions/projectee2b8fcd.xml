@@ -2,58 +2,58 @@
 <versions>
   <component name="AntConfiguration" version="1344565850006" />
   <component name="BookmarkManager" version="1345528011232" />
-  <component name="ChangeListManager" version="1350987211330" />
-  <component name="ChangesViewManager" version="1350974900973" />
-  <component name="CompilerConfiguration" version="1350974900973" />
-  <component name="CoverageDataManager" version="1350974900973" />
-  <component name="CreatePatchCommitExecutor" version="1350974900973" />
-  <component name="DaemonCodeAnalyzer" version="1350974900973" />
-  <component name="DebuggerManager" version="1350986203578" />
+  <component name="ChangeListManager" version="1351223217533" />
+  <component name="ChangesViewManager" version="1351221982749" />
+  <component name="CompilerConfiguration" version="1351221982750" />
+  <component name="CoverageDataManager" version="1351221982751" />
+  <component name="CreatePatchCommitExecutor" version="1351221982751" />
+  <component name="DaemonCodeAnalyzer" version="1351221982751" />
+  <component name="DebuggerManager" version="1351221982753" />
   <component name="EclipseCodeFormatter" version="1346137266383" />
-  <component name="Encoding" version="1350979198698" />
-  <component name="EntryPointsManager" version="1350977250980" />
+  <component name="Encoding" version="1351221982755" />
+  <component name="EntryPointsManager" version="1351221982755" />
   <component name="ErrorTreeViewConfiguration" version="1348625925360" />
-  <component name="FavoritesManager" version="1350974900975" />
-  <component name="FileEditorManager" version="1351042313649" />
-  <component name="FindManager" version="1350974900987" />
+  <component name="FavoritesManager" version="1351221982755" />
+  <component name="FileEditorManager" version="1351227906768" />
+  <component name="FindManager" version="1351221982757" />
   <component name="FrameworkCommandLineHistory" version="1344565626764" />
   <component name="FrameworkDetectionExcludesConfiguration" version="1345528011256" />
   <component name="HierarchyBrowserManager" version="1348567645253" />
   <component name="HighlightingSettingsPerFile" version="1341985594260" />
-  <component name="IdProvider" version="1350974900990" />
-  <component name="IdeDocumentHistory" version="1350986217933" />
-  <component name="JavacSettings" version="1350976920274" />
+  <component name="IdProvider" version="1351221982758" />
+  <component name="IdeDocumentHistory" version="1351223074390" />
+  <component name="JavacSettings" version="1351055865816" />
   <component name="LogSupport" version="1341465417776" />
-  <component name="MavenImportPreferences" version="1350974901044" />
+  <component name="MavenImportPreferences" version="1351221982799" />
   <component name="MavenProjectNavigator" version="1348624601826" />
-  <component name="MavenProjectsManager" version="1350974901044" />
+  <component name="MavenProjectsManager" version="1351221982799" />
   <component name="MavenRunner" version="1341465417780" />
   <component name="Palette2" version="1344568775411" />
-  <component name="ProjectFrameBounds" version="1350984808209" />
-  <component name="ProjectInspectionProfilesVisibleTreeState" version="1346674506909" />
-  <component name="ProjectLevelVcsManager" version="1350974901045" />
-  <component name="ProjectModuleManager" version="1350974901045" />
-  <component name="ProjectReloadState" version="1350974901045" />
-  <component name="ProjectResources" version="1350974901045" />
-  <component name="ProjectRootManager" version="1350974901045" />
-  <component name="ProjectView" version="1350978522248" />
-  <component name="PropertiesComponent" version="1350974901045" />
+  <component name="ProjectFrameBounds" version="1351227913482" />
+  <component name="ProjectInspectionProfilesVisibleTreeState" version="1351055865817" />
+  <component name="ProjectLevelVcsManager" version="1351221982801" />
+  <component name="ProjectModuleManager" version="1351221982802" />
+  <component name="ProjectReloadState" version="1351221982802" />
+  <component name="ProjectResources" version="1351222061782" />
+  <component name="ProjectRootManager" version="1351221982802" />
+  <component name="ProjectView" version="1351222399389" />
+  <component name="PropertiesComponent" version="1351221982802" />
   <component name="RecentsManager" version="1350889832089" />
   <component name="RestoreUpdateTree" version="1350296211900" />
-  <component name="RunManager" version="1350977644699" />
-  <component name="ShelveChangesManager" version="1350974901051" />
-  <component name="SvnBranchConfigurationManager" version="1350974901077" />
-  <component name="SvnConfiguration" version="1350974901077" />
-  <component name="SvnFileUrlMappingImpl" version="1350974901077" />
-  <component name="TaskManager" version="1350987211348" />
+  <component name="RunManager" version="1351221982829" />
+  <component name="ShelveChangesManager" version="1351221982829" />
+  <component name="SvnBranchConfigurationManager" version="1351221982829" />
+  <component name="SvnConfiguration" version="1351221982829" />
+  <component name="SvnFileUrlMappingImpl" version="1351221982830" />
+  <component name="TaskManager" version="1351223217556" />
   <component name="TodoView" version="1350974935699" />
-  <component name="ToolWindowManager" version="1350987406158" />
-  <component name="VcsContentAnnotationSettings" version="1350974901094" />
-  <component name="VcsDirectoryMappings" version="1350974901094" />
-  <component name="VcsManagerConfiguration" version="1350987211348" />
-  <component name="XDebuggerManager" version="1350974901094" />
+  <component name="ToolWindowManager" version="1351228157364" />
+  <component name="VcsContentAnnotationSettings" version="1351221982843" />
+  <component name="VcsDirectoryMappings" version="1351221982843" />
+  <component name="VcsManagerConfiguration" version="1351223217557" />
+  <component name="XDebuggerManager" version="1351221982844" />
   <component name="antWorkspaceConfiguration" version="1344565850034" />
-  <component name="editorHistoryManager" version="1351042313688" />
-  <component name="masterDetails" version="1346144293389" />
+  <component name="editorHistoryManager" version="1351227906821" />
+  <component name="masterDetails" version="1351056002383" />
 </versions>
 

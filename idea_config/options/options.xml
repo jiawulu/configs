@@ -66,6 +66,7 @@
     <location key="NewModule_or_Project.wizard.0.0.1280.1024" x="66" y="156" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.1280.1024" x="185" y="121" />
     <location key="replaceTextDialog.1280.0.1280.1024" x="1529" y="187" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.31.1280.993" x="364" y="328" />
     <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1280.1024" x="-9" y="221" />
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1280.1024" x="227" y="330" />
     <location key="#Browse_Repositories.0.0.1280.1024" x="17" y="86" />
@@ -105,6 +106,7 @@
     <location key="OptionsEditor" x="9" y="72" />
     <location key="#Auto_Import.1280.0.1280.1024" x="1682" y="250" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1280.1024" x="457" y="363" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.31.1280.993" x="217" y="110" />
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.1280.0.1280.1024" x="1582" y="169" />
     <location key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.0.0.1280.1024" x="410" y="210" />
     <location key="dock-window-1.0.0.1280.1024" x="1371" y="63" />
@@ -113,6 +115,7 @@
     <location key="replaceTextDialog.0.0.1280.1024" x="361" y="227" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1280.1024" x="329" y="220" />
     <location key="#com.intellij.openapi.editor.actions.MultiplePasteAction.Chooser.0.31.1280.993" x="504" y="372" />
+    <location key="git4idea.ui.GitResetDialog.0.31.1280.993" x="410" y="427" />
     <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.1280.0.1280.1024" x="1657" y="390" />
     <location key="#com.intellij.debugger.ui.EvaluationDialog2.1280.0.1280.1024" x="1410" y="127" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.0.1280.1024" x="1400" y="82" />
@@ -127,22 +130,22 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1280.1024" x="400" y="180" />
     <location key="OptionsEditor.0.0.1280.1024" x="14" y="164" />
     <location key="#_configServerList_=_{java.util.ArrayList@2222}_size_=_2.0.0.1280.1024" x="435" y="419" />
-    <size key="GridCell.Tab.1.bottom.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.1.bottom.1280.0.1280.1024" width="1229" height="443" />
     <size key="GridCell.Tab.0.bottom.0.0.1280.1024" width="1231" height="220" />
     <size key="CommitChangelistDialog.1280.0.1280.1024" width="742" height="725" />
-    <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.StatementEditor.0.31.1280.993" width="595" height="78" />
+    <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.StatementEditor.0.31.1280.993" width="603" height="25" />
     <size key="DebuggerActiveHint.1280.0.1280.1024" width="656" height="469" />
     <size key="#Browse_Repositories.1280.0.1280.1024" width="1039" height="712" />
     <size key="GridCell.Tab.0.bottom" width="1233" height="457" />
     <size key="FrameworkRunConsoleActionPopup.0.0.1280.1024" width="302" height="45" />
     <size key="FileChooserDialogImpl.0.31.1280.993" width="583" height="513" />
     <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.EvaluationPanel.1280.0.1280.1024" width="1082" height="569" />
-    <size key="GridCell.Tab.1.right.1280.0.1280.1024" width="1231" height="220" />
-    <size key="GridCell.Tab.1.right.0.31.1280.993" width="1231" height="210" />
-    <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.EvaluationPanel.0.31.1280.993" width="595" height="310" />
+    <size key="GridCell.Tab.1.right.1280.0.1280.1024" width="1229" height="443" />
+    <size key="GridCell.Tab.1.right.0.31.1280.993" width="1231" height="325" />
+    <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.EvaluationPanel.0.31.1280.993" width="603" height="363" />
     <size key="Vcs.CompareWithSelectedRevision.Popup" width="302" height="419" />
     <size key="GotoFile_FileTypePopup.1280.0.1280.1024" width="200" height="200" />
-    <size key="GridCell.Tab.0.right.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.0.right.1280.0.1280.1024" width="1229" height="443" />
     <size key="GridCell.Tab.0.center" width="1233" height="457" />
     <size key="DiffWindow.0.0.1280.1024" width="1100" height="814" />
     <size key="chooseDestDirectoryDialog.1280.0.1280.1024" width="655" height="462" />
@@ -155,9 +158,9 @@
     <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.StatementEditor.1280.0.1280.1024" width="1082" height="108" />
     <size key="CommitChangelistDialog.0.0.1280.1024" width="742" height="893" />
     <size key="CommitChangelistDialog.0.31.1280.993" width="703" height="682" />
-    <size key="GridCell.Tab.0.center.1280.0.1280.1024" width="1231" height="220" />
-    <size key="GridCell.Tab.1.left.0.31.1280.993" width="1231" height="210" />
-    <size key="#com.intellij.debugger.ui.EvaluationDialog2.0.31.1280.993" width="621" height="521" />
+    <size key="GridCell.Tab.0.center.1280.0.1280.1024" width="1229" height="443" />
+    <size key="GridCell.Tab.1.left.0.31.1280.993" width="1231" height="325" />
+    <size key="#com.intellij.debugger.ui.EvaluationDialog2.0.31.1280.993" width="629" height="521" />
     <size key="svn.passwordDialog.0.0.1280.1024" width="688" height="238" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1280.1024" width="1100" height="814" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.1280.0.1280.1024" width="844" height="753" />
@@ -167,20 +170,21 @@
     <size key="ProcessPopupWindow" width="768" height="293" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.1280.0.1280.1024" width="1300" height="1066" />
     <size key="GridCell.Tab.0.left" width="1233" height="457" />
-    <size key="GridCell.Tab.0.right.0.31.1280.993" width="1231" height="210" />
-    <size key="GridCell.Tab.0.left.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.0.right.0.31.1280.993" width="1229" height="443" />
+    <size key="GridCell.Tab.0.left.1280.0.1280.1024" width="1229" height="443" />
     <size key="DiffWindow.1280.0.1280.1024" width="1100" height="841" />
     <size key="changelist.details.popup.0.0.1280.1024" width="290" height="89" />
-    <size key="GridCell.Tab.0.left.0.31.1280.993" width="1231" height="210" />
+    <size key="GridCell.Tab.0.left.0.31.1280.993" width="1229" height="443" />
     <size key="findTextDialog.0.31.1280.993" width="411" height="511" />
     <size key="OptionsEditor.0.31.1280.993" width="1226" height="853" />
     <size key="NewModule_or_Project.wizard.0.31.1280.993" width="916" height="653" />
-    <size key="GridCell.Tab.0.bottom.0.31.1280.993" width="1231" height="210" />
+    <size key="GridCell.Tab.0.bottom.0.31.1280.993" width="1229" height="443" />
     <size key="DebuggerActiveHint.0.0.1280.1024" width="1280" height="720" />
-    <size key="GridCell.Tab.0.center.0.31.1280.993" width="1231" height="210" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.31.1280.993" width="826" height="685" />
+    <size key="GridCell.Tab.0.center.0.31.1280.993" width="1229" height="443" />
     <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.StatementEditor.0.0.1280.1024" width="1228" height="35" />
     <size key="GridCell.Tab.1.right.0.0.1280.1024" width="1231" height="220" />
-    <size key="GridCell.Tab.1.center.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.1.center.1280.0.1280.1024" width="1229" height="443" />
     <size key="javadoc.popup.0.0.1280.1024" width="502" height="129" />
     <size key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" width="1100" height="866" />
     <size key="dock-window-1.0.0.1280.1024" width="1134" height="857" />
@@ -193,22 +197,25 @@
     <size key="DiffWindow.0.31.1280.993" width="1080" height="793" />
     <size key="git4idea.push.GitPushDialog.0.31.1280.993" width="693" height="559" />
     <size key="#com.intellij.openapi.editor.actions.MultiplePasteAction.Chooser.0.31.1280.993" width="263" height="315" />
+    <size key="git4idea.ui.GitResetDialog.0.31.1280.993" width="452" height="196" />
     <size key="FileChooserDialogImpl.1280.0.1280.1024" width="583" height="513" />
     <size key="GridCell.Tab.0.left.0.0.1280.1024" width="1231" height="220" />
     <size key="#com.intellij.debugger.ui.EvaluationDialog2.1280.0.1280.1024" width="1126" height="836" />
     <size key="GitCloneDialog.0.31.1280.993" width="535" height="168" />
-    <size key="GridCell.Tab.1.bottom.0.31.1280.993" width="1231" height="210" />
-    <size key="GridCell.Tab.1.center.0.31.1280.993" width="1231" height="210" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.0.1280.1024" width="545" height="391" />
+    <size key="GridCell.Tab.1.bottom.0.31.1280.993" width="1231" height="325" />
+    <size key="GridCell.Tab.1.center.0.31.1280.993" width="1231" height="325" />
     <size key="DiffWindow" width="1092" height="838" />
     <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.31.1280.993" width="526" height="502" />
     <size key="svn.passwordDialog.1280.0.1280.1024" width="670" height="221" />
     <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.31.1280.993" width="526" height="485" />
     <size key="Subversion.BranchConfigurationDialog.1280.0.1280.1024" width="424" height="300" />
     <size key="RollbackChangesDialog.0.31.1280.993" width="635" height="520" />
-    <size key="GridCell.Tab.1.left.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.1.left.1280.0.1280.1024" width="1229" height="443" />
     <size key="#com.intellij.ide.util.MemberChooser.0.0.1280.1024" width="754" height="601" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.31.1280.993" width="544" height="398" />
     <size key="OptionsEditor.0.0.1280.1024" width="1248" height="748" />
-    <size key="GridCell.Tab.0.bottom.1280.0.1280.1024" width="1231" height="220" />
+    <size key="GridCell.Tab.0.bottom.1280.0.1280.1024" width="1229" height="443" />
     <size key="javadoc.popup.1280.0.1280.1024" width="602" height="424" />
     <size key="#com.intellij.debugger.ui.StatementEvaluationDialog.EvaluationPanel.0.0.1280.1024" width="1228" height="448" />
     <size key="#Browse_Repositories.0.0.1280.1024" width="1227" height="712" />

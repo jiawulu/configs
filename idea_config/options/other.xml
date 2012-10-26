@@ -86,40 +86,40 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.xml.vm" />
+    <option name="FILE_MASK" value="*.vm" />
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="getbp" />
-          <item index="1" class="java.lang.String" itemvalue="item*service" />
-          <item index="2" class="java.lang.String" itemvalue="itemQueryServiceClientLocal" />
-          <item index="3" class="java.lang.String" itemvalue="itemQueryServiceL0" />
-          <item index="4" class="java.lang.String" itemvalue="postfee" />
-          <item index="5" class="java.lang.String" itemvalue="itemService" />
-          <item index="6" class="java.lang.String" itemvalue="shopPromResult" />
-          <item index="7" class="java.lang.String" itemvalue="shopQuery" />
-          <item index="8" class="java.lang.String" itemvalue="sph.entry()" />
-          <item index="9" class="java.lang.String" itemvalue="ponits" />
-          <item index="10" class="java.lang.String" itemvalue="point" />
-          <item index="11" class="java.lang.String" itemvalue="velocity" />
-          <item index="12" class="java.lang.String" itemvalue="currentTemplateName" />
-          <item index="13" class="java.lang.String" itemvalue="printfield" />
-          <item index="14" class="java.lang.String" itemvalue="gettem" />
-          <item index="15" class="java.lang.String" itemvalue="Field" />
-          <item index="16" class="java.lang.String" itemvalue="2882" />
-          <item index="17" class="java.lang.String" itemvalue="tag" />
-          <item index="18" class="java.lang.String" itemvalue="queryItemById" />
-          <item index="19" class="java.lang.String" itemvalue="ItemQueryService" />
-          <item index="20" class="java.lang.String" itemvalue="itemQueryService" />
-          <item index="21" class="java.lang.String" itemvalue="queryItembyId" />
-          <item index="22" class="java.lang.String" itemvalue="queryItembyid" />
-          <item index="23" class="java.lang.String" itemvalue="DefaultRateCenterCommonRule" />
-          <item index="24" class="java.lang.String" itemvalue="ump" />
-          <item index="25" class="java.lang.String" itemvalue="itemquery" />
-          <item index="26" class="java.lang.String" itemvalue="sic" />
-          <item index="27" class="java.lang.String" itemvalue="getfeaturemap" />
-          <item index="28" class="java.lang.String" itemvalue="logger" />
-          <item index="29" class="java.lang.String" itemvalue="parent" />
+          <item index="0" class="java.lang.String" itemvalue="shopPromResult" />
+          <item index="1" class="java.lang.String" itemvalue="shopQuery" />
+          <item index="2" class="java.lang.String" itemvalue="sph.entry()" />
+          <item index="3" class="java.lang.String" itemvalue="ponits" />
+          <item index="4" class="java.lang.String" itemvalue="point" />
+          <item index="5" class="java.lang.String" itemvalue="velocity" />
+          <item index="6" class="java.lang.String" itemvalue="currentTemplateName" />
+          <item index="7" class="java.lang.String" itemvalue="printfield" />
+          <item index="8" class="java.lang.String" itemvalue="gettem" />
+          <item index="9" class="java.lang.String" itemvalue="Field" />
+          <item index="10" class="java.lang.String" itemvalue="2882" />
+          <item index="11" class="java.lang.String" itemvalue="tag" />
+          <item index="12" class="java.lang.String" itemvalue="queryItemById" />
+          <item index="13" class="java.lang.String" itemvalue="ItemQueryService" />
+          <item index="14" class="java.lang.String" itemvalue="itemQueryService" />
+          <item index="15" class="java.lang.String" itemvalue="queryItembyId" />
+          <item index="16" class="java.lang.String" itemvalue="queryItembyid" />
+          <item index="17" class="java.lang.String" itemvalue="DefaultRateCenterCommonRule" />
+          <item index="18" class="java.lang.String" itemvalue="ump" />
+          <item index="19" class="java.lang.String" itemvalue="itemquery" />
+          <item index="20" class="java.lang.String" itemvalue="sic" />
+          <item index="21" class="java.lang.String" itemvalue="getfeaturemap" />
+          <item index="22" class="java.lang.String" itemvalue="logger" />
+          <item index="23" class="java.lang.String" itemvalue="parent" />
+          <item index="24" class="java.lang.String" itemvalue="productionMode" />
+          <item index="25" class="java.lang.String" itemvalue="h5back_nick" />
+          <item index="26" class="java.lang.String" itemvalue="console" />
+          <item index="27" class="java.lang.String" itemvalue="hash" />
+          <item index="28" class="java.lang.String" itemvalue="prom" />
+          <item index="29" class="java.lang.String" itemvalue="ump-core" />
         </list>
       </value>
     </option>
@@ -179,10 +179,10 @@
           <item index="11" class="java.lang.String" itemvalue="pom.xml" />
           <item index="12" class="java.lang.String" itemvalue="*.*" />
           <item index="13" class="java.lang.String" itemvalue="*.jav" />
-          <item index="14" class="java.lang.String" itemvalue="*.vm" />
-          <item index="15" class="java.lang.String" itemvalue="*.java" />
+          <item index="14" class="java.lang.String" itemvalue="*.java" />
+          <item index="15" class="java.lang.String" itemvalue="*.xml.vm" />
           <item index="16" class="java.lang.String" itemvalue="*.xml" />
-          <item index="17" class="java.lang.String" itemvalue="*.xml.vm" />
+          <item index="17" class="java.lang.String" itemvalue="*.vm" />
         </list>
       </value>
     </option>
@@ -204,9 +204,9 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/workspace/personal/mylab-java" />
-        <option value="$USER_HOME$/workspace/mtop" />
         <option value="$USER_HOME$/workspace/wdetail" />
+        <option value="$USER_HOME$/workspace/mtop" />
+        <option value="$USER_HOME$/workspace/personal/mylab-java" />
         <option value="$USER_HOME$/workspace/personal/mylab-java/mylab-java" />
         <option value="$USER_HOME$/workspace/personal/mylab/myJava_lab" />
         <option value="$USER_HOME$/workspace/wirelesssdk" />
@@ -234,7 +234,6 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/workspace/wdetail" />
-        <option value="$USER_HOME$/workspace/personal/mylab-java" />
       </list>
     </option>
     <option name="names">
@@ -252,7 +251,6 @@
         <entry key="$USER_HOME$/workspace/trunk/mtop" value="" />
         <entry key="$USER_HOME$/workspace/trunk/wdetail" value="" />
         <entry key="$USER_HOME$/workspace/trunk/wdetail_trunk" value="" />
-        <entry key="$USER_HOME$/workspace/wdetail" value="" />
         <entry key="$USER_HOME$/workspace/wireless-hsf-test" value="" />
         <entry key="$USER_HOME$/workspace/wirelesssdk" value="" />
         <entry key="$USER_HOME$/workspace/wirelesssdk/spring-plus" value="" />
@@ -266,7 +264,7 @@
         <entry key="$USER_HOME$/www/gh_pages" value="" />
       </map>
     </option>
-    <option name="lastPath" value="$USER_HOME$/workspace/personal/mylab-java" />
+    <option name="lastPath" value="$USER_HOME$/workspace/wdetail" />
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
@@ -317,7 +315,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1350959147978" />
+    <option name="LAST_TIME_CHECKED" value="1351217238800" />
     <option name="LAST_BUILD_CHECKED" value="IU-117.798" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
