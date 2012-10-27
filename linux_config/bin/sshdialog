@@ -32,16 +32,20 @@ clear
 case $RHOST in
   0)
 	echo "connecting to $SSHOST"
-	npssh $SSHOST "wuzhong" "ssh_034885"
+    if [ -z $2 ]; then
+	npssh $SSHOST $SSHD_USERNAME $SSHD_PASSWORD
+    else
+    echo "$2 $SSHOST $SSHD_USERNAME $SSHD_PASSWORD"
+    eval "$2 $SSHOST $SSHD_USERNAME $SSHD_PASSWORD"
+    fi
 	echo "ssh terminated, byebye"
-	echo "This script is made by Raymii from http://raymii.org"
 	;;
   1)
 	echo "You selected exit, we will quit"
 	exit 0
 	;;
   3)
-	nano $HOSTSFILE
+	vi $HOSTSFILE
 	exec bash $0
 	exit 0
 	;;

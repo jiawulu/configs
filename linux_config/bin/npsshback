@@ -14,21 +14,14 @@ expect {
             exp_continue
     } "word:" {
         send "$PASSWORD\r"
+            exp_continue
+    }  "[$USER@*~]$ " {
+        send "sudo su admin"
+            exp_continue
+    }  "[admin@" {
+        interact
+    } eof { 
+        exit 
     } 
+
 }
-
-expect "wuzhong@" {
-    send "sudo su admin\r"
-}
-
-expect "word" {
-    send "$PASSWORD\r"
-    interact
-}
-
-expect "admin@" {
-    send "cd\r"
-    interact
-}
-
-
