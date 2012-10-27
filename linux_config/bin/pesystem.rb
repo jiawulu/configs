@@ -43,11 +43,12 @@ end
 
 doc = Nokogiri::HTML(open('http://pesystem.taobao.org:9999/app/' + appName = ARGV[0]));
 
+pretable = doc.css('#tabPrepub table');
+PeSystem.putsPre pretable
+
 hoststable = doc.css('#tabHosts table');
 PeSystem.putsOnline hoststable
 
-pretable = doc.css('#tabPrepub table');
-PeSystem.putsPre pretable
 
 
 

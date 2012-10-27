@@ -90,36 +90,36 @@
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="shopPromResult" />
-          <item index="1" class="java.lang.String" itemvalue="shopQuery" />
-          <item index="2" class="java.lang.String" itemvalue="sph.entry()" />
-          <item index="3" class="java.lang.String" itemvalue="ponits" />
-          <item index="4" class="java.lang.String" itemvalue="point" />
-          <item index="5" class="java.lang.String" itemvalue="velocity" />
-          <item index="6" class="java.lang.String" itemvalue="currentTemplateName" />
-          <item index="7" class="java.lang.String" itemvalue="printfield" />
-          <item index="8" class="java.lang.String" itemvalue="gettem" />
-          <item index="9" class="java.lang.String" itemvalue="Field" />
-          <item index="10" class="java.lang.String" itemvalue="2882" />
-          <item index="11" class="java.lang.String" itemvalue="tag" />
-          <item index="12" class="java.lang.String" itemvalue="queryItemById" />
-          <item index="13" class="java.lang.String" itemvalue="ItemQueryService" />
-          <item index="14" class="java.lang.String" itemvalue="itemQueryService" />
-          <item index="15" class="java.lang.String" itemvalue="queryItembyId" />
-          <item index="16" class="java.lang.String" itemvalue="queryItembyid" />
-          <item index="17" class="java.lang.String" itemvalue="DefaultRateCenterCommonRule" />
-          <item index="18" class="java.lang.String" itemvalue="ump" />
-          <item index="19" class="java.lang.String" itemvalue="itemquery" />
-          <item index="20" class="java.lang.String" itemvalue="sic" />
-          <item index="21" class="java.lang.String" itemvalue="getfeaturemap" />
-          <item index="22" class="java.lang.String" itemvalue="logger" />
-          <item index="23" class="java.lang.String" itemvalue="parent" />
-          <item index="24" class="java.lang.String" itemvalue="productionMode" />
-          <item index="25" class="java.lang.String" itemvalue="h5back_nick" />
-          <item index="26" class="java.lang.String" itemvalue="console" />
-          <item index="27" class="java.lang.String" itemvalue="hash" />
-          <item index="28" class="java.lang.String" itemvalue="prom" />
-          <item index="29" class="java.lang.String" itemvalue="ump-core" />
+          <item index="0" class="java.lang.String" itemvalue="shopQuery" />
+          <item index="1" class="java.lang.String" itemvalue="sph.entry()" />
+          <item index="2" class="java.lang.String" itemvalue="ponits" />
+          <item index="3" class="java.lang.String" itemvalue="point" />
+          <item index="4" class="java.lang.String" itemvalue="velocity" />
+          <item index="5" class="java.lang.String" itemvalue="currentTemplateName" />
+          <item index="6" class="java.lang.String" itemvalue="printfield" />
+          <item index="7" class="java.lang.String" itemvalue="gettem" />
+          <item index="8" class="java.lang.String" itemvalue="Field" />
+          <item index="9" class="java.lang.String" itemvalue="2882" />
+          <item index="10" class="java.lang.String" itemvalue="tag" />
+          <item index="11" class="java.lang.String" itemvalue="queryItemById" />
+          <item index="12" class="java.lang.String" itemvalue="ItemQueryService" />
+          <item index="13" class="java.lang.String" itemvalue="itemQueryService" />
+          <item index="14" class="java.lang.String" itemvalue="queryItembyId" />
+          <item index="15" class="java.lang.String" itemvalue="queryItembyid" />
+          <item index="16" class="java.lang.String" itemvalue="DefaultRateCenterCommonRule" />
+          <item index="17" class="java.lang.String" itemvalue="ump" />
+          <item index="18" class="java.lang.String" itemvalue="itemquery" />
+          <item index="19" class="java.lang.String" itemvalue="sic" />
+          <item index="20" class="java.lang.String" itemvalue="getfeaturemap" />
+          <item index="21" class="java.lang.String" itemvalue="logger" />
+          <item index="22" class="java.lang.String" itemvalue="parent" />
+          <item index="23" class="java.lang.String" itemvalue="productionMode" />
+          <item index="24" class="java.lang.String" itemvalue="h5back_nick" />
+          <item index="25" class="java.lang.String" itemvalue="console" />
+          <item index="26" class="java.lang.String" itemvalue="hash" />
+          <item index="27" class="java.lang.String" itemvalue="prom" />
+          <item index="28" class="java.lang.String" itemvalue="ump-core" />
+          <item index="29" class="java.lang.String" itemvalue="CollectionSchema" />
         </list>
       </value>
     </option>
@@ -205,6 +205,7 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/workspace/wdetail" />
+        <option value="$USER_HOME$/Desktop/protostuff" />
         <option value="$USER_HOME$/workspace/mtop" />
         <option value="$USER_HOME$/workspace/personal/mylab-java" />
         <option value="$USER_HOME$/workspace/personal/mylab-java/mylab-java" />
@@ -228,7 +229,6 @@
         <option value="$USER_HOME$/workspace/wireless-hsf-test" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-urihandler-webx3" />
         <option value="$USER_HOME$/workspace/wirelesssdk/trunk/wirelesssdk/wireless-common-webx-util" />
-        <option value="$USER_HOME$/workspace/trunk/mtop" />
       </list>
     </option>
     <option name="openPaths">
@@ -238,6 +238,7 @@
     </option>
     <option name="names">
       <map>
+        <entry key="$USER_HOME$/Desktop/protostuff" value="" />
         <entry key="$USER_HOME$/workspace/backup/wdetail" value="" />
         <entry key="$USER_HOME$/workspace/branches/malldetailskip" value="" />
         <entry key="$USER_HOME$/workspace/galaxy" value="" />
@@ -248,7 +249,6 @@
         <entry key="$USER_HOME$/workspace/personal/svnhosttrunk/myJava_lab" value="" />
         <entry key="$USER_HOME$/workspace/sirius" value="" />
         <entry key="$USER_HOME$/workspace/trunk/malldetailskip" value="" />
-        <entry key="$USER_HOME$/workspace/trunk/mtop" value="" />
         <entry key="$USER_HOME$/workspace/trunk/wdetail" value="" />
         <entry key="$USER_HOME$/workspace/trunk/wdetail_trunk" value="" />
         <entry key="$USER_HOME$/workspace/wireless-hsf-test" value="" />

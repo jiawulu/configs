@@ -1,0 +1,24 @@
+#!/usr/bin/expect -f
+
+set HOST [lindex $argv 0]
+set USER [lindex $argv 1]
+set PASSWORD [lindex $argv 2]
+set timeout 300
+#log_user 0
+#exp_internal 1
+
+spawn -noecho ssh -l $USER $HOST
+expect {
+                     "connecting (yes/no)?" {
+                         send "yes\r"
+                         exp_continue
+                     } "word:" {
+                         send "$PASSWORD\r"
+			 interact
+		    }  "~]$ " {
+			 interact
+                    } eof { 
+			exit 
+                    } 
+                    
+                 }

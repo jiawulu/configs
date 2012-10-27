@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#用途： ssh连接服务器
+
+set_daily() {
+	USER=admin
+	PASSWD='6xqg"JX1r'
+#	HOST=$1
+	export LANG=zh_CN.GB18030
+}
+set_daily
+echo "host is wtm USER is $USER"
+expect -c "
+			spawn ssh -l $USER 10.232.13.33
+			
+			expect {
+                "*yes/no*" { send yes\r\n; sleep 2; interact }
+				"*password:*" { send $PASSWD\r\n; interact }
+			}
+		  "

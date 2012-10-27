@@ -1,0 +1,54 @@
+#!/bin/bash
+
+VERSION="1.2 beta."
+TITLE="SSHdialog $VERSION"
+HOSTSFILE="$SSHD_HOME/$1"
+echo $HOSTSFILE
+if [[ -z $HOSTSFILE || ! -e $HOSTSFILE ]]; then
+	echo "Host file does not exist, please create it"
+	exit 1
+fi
+WIDTH=50
+HEIGHT=40
+MENUSIZE=6
+TEMPF=`TEMPF 2>/dev/null` || TEMPF=/tmp/sshost.$$
+WHICHSSH="`whoami`@${HOSTN[$SSHOST]}"
+DIALOG=${DIALOG=dialog}
+
+LINES=($(awk '{print $1, "\"" $2 "\""}' $HOSTSFILE))
+ALINES=${#LINES[@]}
+
+# if [ $ALINES -gt 6 ]; then MENUSIZE=$ALINES; else MENUSIZE=6; fi
+MENUSIZE=$ALINES
+SMURF="$DIALOG --extra-button --extra-label \"Edit Hosts\" --cancel-label \"Exit\" --ok-label \"Connect\" --menu \"$TITLE\" $HEIGHT $WIDTH $MENUSIZE ${LINES[*]}"
+eval $SMURF 2> $TEMPF
+RHOST=$?
+
+SSHOST=`cat $TEMPF`
+rm -f $TEMPF
+
+clear
+
+case $RHOST in
+  0)
+	echo "connecting to $SSHOST"
+	npssh $SSHOST "wuzhong" "ssh_034885"
+	echo "ssh terminated, byebye"
+	echo "This script is made by Raymii from http://raymii.org"
+	;;
+  1)
+	echo "You selected exit, we will quit"
+	exit 0
+	;;
+  3)
+	nano $HOSTSFILE
+	exec bash $0
+	exit 0
+	;;
+  255)
+	echo "You pressed ESC, we will exit.";
+	exit 0
+	;;
+esac
+
+exit 0

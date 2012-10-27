@@ -1,4 +1,0 @@
-#!/bin/bash 
-
-echo "use vobxbuild to update"
-sudo modprobe vboxdrv
